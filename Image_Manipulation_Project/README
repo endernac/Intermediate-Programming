@@ -1,0 +1,38 @@
+Andrew Cornelio and Vivek Gopalakrishnan
+acornel9 & vgopala4
+
+* OVERVIEW *
+In this submission are a suite of functions that perform various image
+manipulation tasks. These functions are:
+
+1. Swap
+2. Invert
+3. Crop
+4. Edge Detection
+5. Bright
+6. Greyscale
+7. Blur
+
+
+* PROGRAM STRUCTURE *
+The main functionality of this program (to manipulate user input images) can be
+broken down into three steps:
+
+1. Read and write image files (image IO)
+2. Manipulate images
+3. Provide a command line interface for the user (the main function)
+
+We created three files to handle these roles: `ppm_io.c` handles file IO,
+`image_manip.c` contains all functions for image manipulation, and `program.c`
+houses the main function that the user calls. Within `program.c`, we perform all
+of our input checks.
+
+In all, the file tree for this program is very simple and looks like this:
+
+cs220_midterm
+ |
+ +-- ppm_io.c
+ +-- image_manip.c
+ +-- project.c
+
+Within `image_manip.c`, each feature specified in OVERVIEW is functionalized.

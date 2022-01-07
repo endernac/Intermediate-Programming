@@ -1,0 +1,33 @@
+TEAM
+------------------------------------------------------------------------------------------
+Andrew Cornelio
+acornel9
+
+Rebecca Yu
+ryu16
+
+Arjun Somayazulu
+asomaya1
+
+
+
+DESIGN
+------------------------------------------------------------------------------------------
+We approached this project by first building out the legal_move function for each piece type. We then proceeded to build out the functions in Board.pp to visualize the board. Using the provided sparse map, we enabled the board to add piece objects of each type (knight, pawn, bishop, etc) to the sparse map. From there, we began implementing a variety of helper functions that would simplify the code in complex functions like in_check and stalemate. We talk about our design thinking with helper functions below:
+
+We implemented helper functions in Chess.cpp to aid in complex functions like make_move that have complex dependencies on board positions. We broke these dependencies down by creating a naive move checker that checked for legal moves or captures based on the move requested and the piece being moved. This naive move checker is called by a legal move function that is called whenever a move is requested to be made. The naive move checker function runs through a series of dependencies defined in other functions, such as is_clear in Board.cpp that checks a board position is clear for a specific piece to move there. This design choice enabled us to easily trace where an error was located, by simply looking at which dependency failed in the naive move checker function. Our object-oriented modular structure greatly reduced the time and effort we spent in erorr checking and code tracing, and gave us a better understanding of how the classes interact with each other.
+
+We went beyond the scope of the project in our implementation of display. We utilized unicode chess symbols and a color coded board, as well as square board pieces and row column labels in order to improve the game experience, and fully utilize the Terminal header file that was given to us.
+
+
+COMPLETENESS
+------------------------------------------------------------------------------------------
+To our knowledge, we do not have any missing or incorrect functionality in our project. We have a complete solution as defined by the requirements, and have appropriate error messages to enable easier debugging. We have gone beyond the bare requirements in areas like the display function. 
+
+SPECIAL INSTRUCTIONS
+------------------------------------------------------------------------------------------
+There are no special instructions - the game should run exactly as specified in the assignment.
+
+OTHER
+------------------------------------------------------------------------------------------
+When displaying the chess pieces as Unicode characters, we discovered that the characters display differently on different shells utilizing different fonts, which may cause discontinuity in the display.

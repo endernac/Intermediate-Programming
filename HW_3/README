@@ -1,0 +1,38 @@
+Andrew Cornelio
+acornel9 
+
+Briefly justify the structure of your program; why you defined the functions you did, etc
+	The first thing (hw3) main does is determined whether the right number of CL arguments were
+	passed. Then it calls the function read_text. read_text is convenient because it takes a file
+	name and the desired string length (1501 in all cases) and it reads from that file and returns
+	a fully capitalized character array pointer with no whitespace and only A,T,G, and C, or it
+	returns a null if the text was invalid somehow. It handles all the errors associated with text
+	reading and the specifics of the assigment, and it also closes the file when it's done. This
+	function takes over all the hardships of parsing a text file.
+
+	The other important function is match_pattern, this essentially just follows and fleshes out
+	the naive matching algorithm provided in the documentation for the assignment. It is important
+	but it is mostly self explanatory. It returns the index of the first occurence of the pattern
+	it finds in the string.
+
+	The other two functions were mostly just helper functions that consolidated code. I needed to 
+	capitalize the text of both patterns and text so making a function of it made sense from a code 
+	reuse standpoint. That is the same for the valid fuction which runs 3 standard checks on either
+	the pattern of the text to see if it follows the rules. The only thing to note about it is that
+	in the one line that sees if the length of an array is 0 or negative. Although the negative seems
+	trivial and unnecessary, it is important because of a glitch in the read_text function that occurs
+	when reading files with no text in them. The length of the string that is calculated is -1. This 
+	glitch is relatively unimportant and it is not worth fixing since the valid function takes care of it.
+
+If applicable: Highlight anything you did that was particularly clever
+	This is not particularly clever, but I found it convienient to return null pointers from functions as a
+	way to handle errors.
+
+If applicable: Tell the graders if you couldn’t do everything.  Where did you stop?
+What did you get stuck on?  What are the parts you already know do not work according to the requirements?
+	As far as I am aware my code jives with the requirements. However, the test_dna file is somewhat
+	hideous. I was going to use 2d arrays so that I could simplify the code with loops, but I would of
+	needed a jagged array and a way to track all the lengths, which again is annoying because pointers 
+	don't track lengths. I gave up and just added a lot of checks manually. As a result, a lot of the
+	file is repetitive and hardcoded. 
+

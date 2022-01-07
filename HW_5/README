@@ -1,0 +1,25 @@
+Andrew Cornelio
+acornel9
+
+First, I make a 2d vector and stored all the words from the input files 
+into a vector in the 2D vetor while handling file reading errors. I added 
+the two start and end place holders to each vector. Then I created a 
+function trigram in language_model that takes an the 2D vector of all words 
+and creates every 3-tuple of consecutive words in the vectors and calls an 
+add_gram method to add the trigram to the map, either by making a new key
+or incrementing teh value of a preexisting key. 
+
+One of the advantages of a map is that it is already sorted by keys in 
+ascending order. This means that to print in ascending order, you just
+iterate through the map and print. This is what asort() does. The names
+of the funtions are deceiving because they just print, but not actually
+sort the map. Using the same logic as asort, dsort iterates through the
+map but in reverse order and prints. csort Had the same structure as 
+asort and dsort but with the twist that I had an intitial loop to see
+the maximum frequency trigram and then put the print loop inside a loop
+that started at the max frequency and decreased to 0, only printing the 
+trigrams that had the desired frequency. The ascending order was already 
+there from the structure of the map. Finally fsort really wasn't a sort,
+but I was on a roll. I copied the structure of csort, but with the twist
+that the the first two words in the trigram had to match the user input.
+Along the way I handled user input.

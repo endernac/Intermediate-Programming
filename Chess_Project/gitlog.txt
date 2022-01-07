@@ -1,0 +1,1128 @@
+commit 10585ca4e2ac6eb4c8b4b11c01a961fb8b33cfef
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Fri May 3 18:44:07 2019 -0400
+
+    updated README and fixed output cerr for chess
+
+commit 482ceaf652099a8f491ffc346b950963bb5dd0c6
+Merge: 34610a0 dbb7404
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Fri May 3 17:27:57 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 34610a0073536763a106530271fbc529afe2682d
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Fri May 3 17:26:19 2019 -0400
+
+    added switch statement for printing error messages
+
+commit dbb74042b753df1adfca460b8c26e4d1f9945481
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 17:15:19 2019 -0400
+
+    fixed issues in README
+
+commit 9593ffd8470353ebc5b4def01facff0d5f4ac0cc
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 17:08:12 2019 -0400
+
+    wrote about is clear function and how series of dependencies that called functions in other classes enabled us to understand what part of our code was producing errors
+
+commit 2f22a85923e08108db43babf005ad97304561882
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 17:02:06 2019 -0400
+
+    added completeness and special instructions text to README
+
+commit 11b591fb36aeb059ec46c136e6eff135790ca477
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 16:57:03 2019 -0400
+
+    added section about display in README
+
+commit d57523337419df980ed634ff0aabe46c53369c19
+Merge: be7dcf6 2f52a12
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 16:55:09 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit be7dcf6244516089d10dbdd2190a7cc49b4fd469
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri May 3 16:54:34 2019 -0400
+
+    added to README
+
+commit 2f52a124fb7fd99bec0247ab0b168061fa8fa58d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 20:14:20 2019 -0400
+
+    fixed king movement
+
+commit 08c747e57c7ad038230f8d1b8d3ba55db9b0d3df
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 19:11:27 2019 -0400
+
+    king error in mark.txt
+
+commit 8461e99d08bec74795470e9f5c81da2d4b00587e
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 18:24:07 2019 -0400
+
+    more or less ready for submission
+
+commit 40584e448efcbfeb748a40bf6dc508f6695ccdef
+Merge: f399f83 44303fe
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed May 1 17:35:02 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 44303feae24a88bb5badd9915c87016f8861e97a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 17:32:59 2019 -0400
+
+    fixed king's move
+
+commit f399f8316f76f8fee4c7663c0b9fbb6b45b9e662
+Merge: 91eab09 05d8a3e
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed May 1 17:32:55 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 05d8a3e7b5af5d014a8bd4384906f29f5bcefc08
+Merge: 2b42df9 c7f0f82
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 17:23:42 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 2b42df945e079876b23eb9994665d8072b218217
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 17:23:00 2019 -0400
+
+    white move
+
+commit 91eab094b0c7e4bfe16fda713c64d8f914d63019
+Merge: 44ca994 ee7c863
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed May 1 17:13:27 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 44ca994f32558196da1a4cd9b65a88ccef80a462
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed May 1 17:13:17 2019 -0400
+
+    created board label functionality
+
+commit c7f0f82df6a7ecf782eacc15d4edd24d1907aa7b
+Merge: b202d0b ee7c863
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 17:13:05 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+
+commit b202d0bb3ced06b62a3aa9929eedaa5c38598c99
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 17:10:52 2019 -0400
+
+    added promotion
+
+commit ee7c8632b707c43996536893338b56cc9a9e0f1c
+Merge: 0510d26 002a22b
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 16:51:50 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 0510d267996dc25be62168203c0faefc8bea486a
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 16:51:32 2019 -0400
+
+    king movement up/left?
+
+commit 002a22bff4fda5288eddf66924d5a14742ae198e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 15:51:48 2019 -0400
+
+    Set up format for README
+
+commit bb13e82cc76639bfc364900f84b4275f7144eac8
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed May 1 15:19:56 2019 -0400
+
+    modified >> and functions in Board and Chess.cpp
+
+commit 7c6f218144fc45499c6397ece4ce34e7480db36f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 14:54:33 2019 -0400
+
+    removed unnecessary prints in can_move
+
+commit 32af698ae0157b3af75eef4d25290531879355c3
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 13:57:19 2019 -0400
+
+    fixed display function
+
+commit 9c488684981cbd7a95eb850861abd2763f9154ee
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 12:25:51 2019 -0400
+
+    moved all text files to examples
+
+commit 9d490231632ab6a33c62cbc5b3d624eda7987588
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 16:24:32 2019 +0000
+
+    -v edited online with Bitbucket
+
+commit 4253e6a5346936b44b6cd907b352bacb806705aa
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 12:20:48 2019 -0400
+
+    fixed memory leak
+
+commit aabe9e303e64ad69433e99be306ca0c41b90de0c
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 02:40:07 2019 -0400
+
+     red/yellow
+
+commit 304e518ba8477e1cd053619aa6e6ffda6394a7b5
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed May 1 02:27:34 2019 -0400
+
+    prettier colors
+
+commit 1f28d422c8c161430b678d2f3fcaccecfb343e0b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 02:08:07 2019 -0400
+
+    removed stupid external process
+
+commit c2e33483ba75dbc8bf9329a99ed9c12dd4430f1a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed May 1 02:01:33 2019 -0400
+
+    fixed is clear for pawn
+
+commit 47d0d125fde5717c1f1eef3a612d096517550aff
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 23:54:10 2019 -0400
+
+    checkmate works but not stalemate???
+
+commit 261999b6c48182ef6855136a44d3ac8c24d1dab5
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 23:41:47 2019 -0400
+
+    fixed Chess.cpp typo
+
+commit 66cba40a1311ea88a8558962d04e2a974a3ee6fc
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 23:40:11 2019 -0400
+
+    flipped !(in_check()) for mate/stalemate
+
+commit 97de7273ac012f9fedc1524c0d3b6d4bb6347e1a
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 23:36:03 2019 -0400
+
+    deleting executables
+
+commit 8b0360f409812039214946638c70762478ae44a8
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 23:35:38 2019 -0400
+
+    fixing chess so no pawn straight capture
+
+commit 7d24133966067d2885c590cabc630b314a4256db
+Merge: 9e73f85 d4c34dc
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 22:58:10 2019 -0400
+
+    resetting chess executable
+
+commit 9e73f85fad7f97812c2ef3a3f890f4c291297720
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 22:51:22 2019 -0400
+
+    square!
+
+commit d4c34dc03d3131fe879670ce887245d8dd2b0337
+Merge: 5fa2f56 2de0a7c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 22:39:12 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+
+commit 5fa2f56603f95228abcf145d665cbf88fc632b03
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 22:38:52 2019 -0400
+
+    fixed naive move so it can have a different color val
+
+commit 2de0a7c873c39dd763d9163e663f02ef89432e05
+Merge: 63df6c2 3a2adb1
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 22:35:08 2019 -0400
+
+    board merging
+
+commit 63df6c2365ea9bd90bfb7d7edd7e8bde34c2bbf7
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 22:33:20 2019 -0400
+
+    chessboard with colors
+
+commit 3a2adb16d8209bc2b01b4c9ee5ad25da85697640
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 22:16:09 2019 -0400
+
+    correct makefile, finally
+
+commit 5312a4ce6fac5343743d08dbbc0dca1c682f7203
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 22:15:56 2019 -0400
+
+    playing with display colors and spacing
+
+commit 2a2083858fea7c2019fc758fedb24cc236ca6d19
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 22:10:25 2019 -0400
+
+    reverted makefile
+
+commit 94c4712c0c94cdbf3b022d72f12efb07f592784a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 22:00:30 2019 -0400
+
+    fixed makefile
+
+commit df2cf7926bd0b56c93e02f1f72a1cf609793f0d6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:58:21 2019 -0400
+
+    updated makefile
+
+commit 7fa321d707a207af4e362a9bd19c92d5902dee6d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:54:48 2019 -0400
+
+    created Chess_test.cpp
+
+commit ad24c63a49c41439bd4d1b05223e2710c584b6b5
+Merge: ff819e2 cc4ea88
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 21:36:29 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit ff819e21833a323fe82747c0ba66ca83b24bdf77
+Merge: eb55cfa 42e5162
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 21:35:46 2019 -0400
+
+    changed display function to output unicode chess symbols on board
+
+commit cc4ea880584ffde02c83c392db00e8bf1bc0d8a0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:32:19 2019 -0400
+
+    fixed >> again
+
+commit 57f914fa07abb73303600dace49bb6ce56ab789a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:29:48 2019 -0400
+
+    changed >>
+
+commit 8184ba36379b47761c421b47f78adcb06eac7aff
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 21:27:40 2019 -0400
+
+    proper switch function for letters -> unicode pieces
+
+commit f526210b100cd2219dc758d72e5f5f6af1652543
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:24:11 2019 -0400
+
+    added can move to load
+
+commit ca93bf4f4f7cf30a17767a496ea45f3c89ddbaf7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:17:57 2019 -0400
+
+    added turn recognition to >>
+
+commit 42e51622fbd0f50b90beaccd8195564ac5c5059d
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 21:08:56 2019 -0400
+
+    fixed board colors
+
+commit eb55cfab2b59acb152e49dfddb12242f1561de12
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 21:08:30 2019 -0400
+
+    created helper function to_symbol in Board.cpp
+
+commit 4e60039617321046e5f5ac273773b625b15714d3
+Merge: b3abe11 1b05154
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 21:05:41 2019 -0400
+
+    merge issues with typos
+
+commit b3abe1183fecd3be96daaf68b91e00a0b3a96334
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 21:04:30 2019 -0400
+
+    fixed typos in king
+
+commit 1b051542a747ffbe1e37497eec9a105765297413
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:03:24 2019 -0400
+
+    added default to king leagl move
+
+commit b8cd41c63956b11bc5bf7ac344fdc51f63512b25
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 21:00:45 2019 -0400
+
+    fixed other type
+
+commit ce8bcdff4cb70e4a63304d6866c484b2786faa1a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 20:58:23 2019 -0400
+
+    fixed typo
+
+commit 866f8b5600d1d923d5fe7bd1c92eb2a5a950c847
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 18:30:55 2019 -0400
+
+    deleted line in display() and limited mystery to queen and then some
+
+commit 3363078c82bc722216a52e086e80f42005acaaa4
+Merge: 774df05 4c7d67d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 18:21:35 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+
+commit 774df052868cd8feeba69a4959c631fbfa374230
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 18:13:42 2019 -0400
+
+    loading board now works and can move pawns diagonally
+
+commit 4c7d67d28d306a7dd6a9a0276378d356f5dbd85b
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 15:23:53 2019 -0400
+
+    wrote about design process in readme. Commented out display function.
+
+commit b4de3d2000548dc6840daceadaff604b98311ede
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 15:11:50 2019 -0400
+
+    commented out code for Display function
+
+commit 5eadd22478633804866ac8929ceb351f79dd8b51
+Merge: 8af8011 d7055f2
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 15:09:53 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit d7055f285340b52b668f7f192bc4d4eb86b608d1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:56:43 2019 -0400
+
+    removed random text prints
+
+commit 1c1e3afe163b73762ca3ef160dc8676bcd84f2ab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:43:53 2019 -0400
+
+    fixed second seg fault error in has_valid_kings
+
+commit 49c40c78e9ab16ec04a796dceeeafcc691964b04
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:39:55 2019 -0400
+
+    no compilation errors or warnings
+
+commit 18a00b9030db8617247c04499bd6bf6f01018aca
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:36:28 2019 -0400
+
+    fixed variable naming issue for legal_move and finished can_move
+
+commit e5a8f1052167c682826ab0117c4aade7f976530e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:27:06 2019 -0400
+
+    changed name of naive_move_check to naive_move, fixed return values on in_mate and in_stalemate, transferred functionality of make_move to legal_move to avoid infinite recursion and is_white_turn errors, still working on can_move
+
+commit 4b1ed39a911eed30bedb1230dd04b430351ec649
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:13:27 2019 -0400
+
+    changed name and parameter type of <>_valid_move and removed getters
+
+commit ac23b9cca7c8b550c61f71fbe2b8ed05423ecbbd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 30 13:05:57 2019 -0400
+
+    fixed has_valid_kings so no seg fault
+
+commit 8af801109e5f6e67123019c3ff3e4a00cfa3ac56
+Merge: 3b91d6d a7e8f49
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Tue Apr 30 09:57:44 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit a7e8f4979696b0d07d7045fdad11593c8706c824
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Tue Apr 30 09:18:19 2019 -0400
+
+    fixed constant stalemate situation
+
+commit 3b91d6d9a6b26450134eeb2f6bb179d8beadef93
+Merge: 7044fbf 9bb1586
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 29 23:36:55 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 9bb1586a2610ea495b84d094b750c35d9f05fe48
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 23:35:51 2019 -0400
+
+    fixed board display
+
+commit 7044fbf6ddc2ac76cfe763ed7c5e5c44c7b79487
+Merge: f7ba4cb 960462b
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 29 23:24:21 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit f7ba4cb0cf663108596234526a61fd6f4e7451f5
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 29 23:23:45 2019 -0400
+
+    fixed issue with display
+
+commit 960462b17f289ea51ee171f4d1144488a6be8875
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 23:12:41 2019 -0400
+
+    implemented stalemate/checkmate functions further, need to debug
+
+commit 4fee51a4a12ef4f0d736981befaff1ba778c18e2
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 23:04:51 2019 -0400
+
+    write stalemate/checkmate using the white/black_can_move variables / getter functions
+
+commit b1d08cb22744c0db617e015240cbea5be6ee9f3e
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 22:42:53 2019 -0400
+
+    added private variables in Chess.cpp for black/white_can_move
+
+commit b71f24c2423b5f7660991fcb331ee55740463cee
+Merge: 95ac0f4 3d3e2a3
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 22:36:10 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 95ac0f4644df24a98379d951b785aae13de89786
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 22:35:52 2019 -0400
+
+    kind of implementing stalemate
+
+commit 11c432e62b973530e9a53104f88a8b9a1a8f3318
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 17:57:58 2019 -0400
+
+    fixing Pawn capture move
+
+commit 3d3e2a3f2d7c8b287a8c297dfc5a93884aa5c80e
+Merge: 5b43a3c 0fc4db7
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 29 17:53:45 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 5b43a3cda3d1d1903c367ec15c86a80cf3fe97dc
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 29 17:52:42 2019 -0400
+
+    fixed issues and fully implemented display board with Terminal interface
+
+commit 0fb7a6e93b33172f2f544386066bfe69e30e27c7
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 17:42:35 2019 -0400
+
+    fixed abs error in Pawn.h
+
+commit 9ed67fa347a6c5394e43c40ed9e800f1523b7f40
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 29 10:22:22 2019 -0400
+
+    implemented rudimentary stalemate
+
+commit 0fc4db73ccaba9f9af6a0919025e715ebff77d35
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 22:11:13 2019 -0400
+
+    PAWN WORKS!
+
+commit c7ec5c57f961c7c77dd511ddafd62bb34896f803
+Merge: 3af1a9d 99987ba
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 22:09:43 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 3af1a9d6e98df49bd54dfb91f3a87b62096450df
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 22:09:24 2019 -0400
+
+    implemented terminal.h functionality
+
+commit 99987bab74862d130912a4b2dbacb65c2c7c1f5d
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 21:37:15 2019 -0400
+
+    moved definitions to .cpp files for pieces
+
+commit 4be6702496d064870bc52a77f8705213b62a9105
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 21:23:55 2019 -0400
+
+    fixed make file and vtable errors
+
+commit 07cdf7d47a1907abebcd3158f97b815df2632bc3
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 20:49:46 2019 -0400
+
+    unfortunate vtable errors, but updated Makefile
+
+commit fe4afccd37d9d32df0cef97c6daad96ace51cd1b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Apr 28 18:19:13 2019 -0400
+
+    changed is_clear function
+
+commit a036aacebd3b4ee8e02a0e327ed918f8dc17735b
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 17:47:17 2019 -0400
+
+    fixed indexing for all cases / bishops in is_clear
+
+commit ca57dd48632622af7a5c00f3d6151c1aac570c25
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 17:23:32 2019 -0400
+
+    fixed chess.cpp's naive move checker's use of is_clear
+
+commit 67f083908428d7d8b819a373fb83cf5f61c9a9c2
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 17:17:40 2019 -0400
+
+    fixed test case for rooks and fixed is_clear for pawns always returning false
+
+commit 23738f0ca9ba0381f2c73c73f95fd2c713ce73be
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 17:12:41 2019 -0400
+
+    test cases for each piece to check is_clear
+
+commit c2f27a1ca9c1c1ee3aaa9cd0e878c3b8bd9d79eb
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 16:56:50 2019 -0400
+
+    fixed iterator issues preventing movement for rook and Queen
+
+commit eaa96e486f5d5f27e9b7a40fe30de507a46bcc3a
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 16:43:29 2019 -0400
+
+    fixed issues throughout is_clear function that prevented movement of non-pawn pieces
+
+commit a9b464ad4beaa57ae910e1f1b62bc6aff3b1c243
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 16:39:58 2019 -0400
+
+    checking is_clear in Board_Test
+
+commit 3483876680db94b33fb6dea734c84b781e3b995a
+Merge: 3eaa8ae e80e521
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 16:23:25 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 3eaa8aea51e4d372b4f0a29dd4019fee843dd229
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 16:23:12 2019 -0400
+
+    updated board_test
+
+commit e80e52176e4e4e2d66630ef5664254e4868278fb
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 16:13:54 2019 -0400
+
+    changed output error messages to made debugging easier
+
+commit ab1ff74b0f9a63c11400a7546b566693ebf7560e
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 15:50:10 2019 -0400
+
+    resolved qualified id in declaration error
+
+commit 993c80b19fbf6013502fe596f3832462065e98b1
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 15:42:04 2019 -0400
+
+    cleaned chess.cpp
+
+commit e9cd8dec18cde0c0c4181da66802ce27573a71d6
+Merge: 78e0525 518670e
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 14:41:31 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 78e05251e4ba65b1ee197c40618941a94749c613
+Merge: 9551632 2d289ce
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 14:41:17 2019 -0400
+
+    new versions:
+
+commit 518670eb645ff3ce7592f1fa154951e422901e5b
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 05:56:11 2019 -0400
+
+    testing chess.cpp, cannot move pawn double
+
+commit ee1866b9c9616cc11643a315e4a4b6d419ac60d9
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 05:18:03 2019 -0400
+
+    checked king.h's legal move function, error likely in move_piece function
+
+commit 0077251d1f44fde24976b9465bb45ed5cf26e8f2
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 05:00:14 2019 -0400
+
+    working on Chess.cpp
+
+commit bda5d43330242fe0a79ef32d0db7389e7a48da39
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 04:22:18 2019 -0400
+
+    updating board's helper functions
+
+commit 968bf8b4b7abfa50eeb5ed1bddbc7776b0981d4b
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 03:27:43 2019 -0400
+
+    fixed pawn for black
+
+commit 1d7ef425fd4f1f0f687f330491d83daf3af7f633
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Sun Apr 28 01:23:00 2019 -0400
+
+    updating the .cpp files of pieces
+
+commit 9551632e28a2974cf82f14d952a1f7151fa571c0
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Sun Apr 28 00:48:43 2019 -0400
+
+    modified to_kings function in chess
+
+commit 2d289ce4b305aca8e97cbbee45bc089f9dd20015
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 22:36:59 2019 -0400
+
+    game works with glitches, it free doesn't work and kKnights can't move
+
+commit 9d504dd1cfb3d9e8fbcde4a4464469304dc3578b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 22:02:57 2019 -0400
+
+    Fixed errors in Chess .cpp .h and Board .cpp .h. Made some funcs in Board const
+
+commit f9e28eb8103337e6392850b2afe1a38b5c9dae52
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 21:27:31 2019 -0400
+
+    added code for << in Board
+
+commit 8e8bc3d4d431d9ef45b01c1dcd5d06218dbb8aa5
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 15:03:38 2019 -0400
+
+    added extra constition to peices and wrote is_free for known pieces- might need something for mystery
+
+commit ec6478e276fc74cd63da5763bf6ee88fb51be62c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 03:45:29 2019 -0400
+
+    created Board_test to make board testing easier and worked on make_move and check
+
+commit 6f1ffbd715ac9dc7893639b6d955f3b81dbd06db
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Apr 27 00:16:47 2019 -0400
+
+    fixed Board() op so it returns null if position not found
+
+commit 10d184663ded3a47c90824d4f41f1bec9b36535c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Apr 26 17:02:57 2019 -0400
+
+    added default return for is_clear
+
+commit 8ba07e3603977c097d93e66ef5f97c6c1061bd27
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri Apr 26 15:44:23 2019 -0400
+
+    fixed issues with compilation errors
+
+commit 6d3c82e1fd9b546217ddfdd85a254ac6424f3036
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Fri Apr 26 15:26:27 2019 -0400
+
+    fixed issues in Board.cpp that prevented compilation. Fixed issues with referencing pointer values in is_clear function:
+
+commit 37d5ead05ad664a7f7abe64a37a0b5da1953611a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Apr 26 14:58:40 2019 -0400
+
+    started is_free in Board.cpp
+
+commit 4463e4c1adca6951ba9c93e6546aa8a04d35b7c3
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Apr 26 13:24:07 2019 -0400
+
+    added to make_move in Chess
+
+commit 3298a99fdef66856a2ec327bcf75e669f8b256a5
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Apr 26 12:26:17 2019 -0400
+
+    Removed PIECE_H header guards on Chess.cpp
+
+commit d8d702b9f3c49910c9c0a2d358c63af9dca6c06b
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Thu Apr 25 13:17:22 2019 -0400
+
+    debugging compiler issues
+
+commit 59b3f922cf4dd54293a4f6f62bc7cdd428d48535
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Thu Apr 25 11:14:19 2019 -0400
+
+    fixed Board.cpp bugs / syntactical errors - still issues with find_kings
+
+commit 080c2d99a0fd1366219d70547fb539e1d9105167
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Thu Apr 25 11:12:24 2019 -0400
+
+    fixed display board function bugs
+
+commit 6fb1e906e3a7217007462f20d0f3ec1d2407cb48
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 23:22:43 2019 -0400
+
+    fixed errors throughout functions that prevented succesful compilation. Changed display method to work by iterating through sparse map and seeing if each location pair exists
+
+commit 2f03af3bb4ffbca057d941bb1c0658d02994c7ee
+Merge: 4b3e5cb 26735f2
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 22:12:25 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 4b3e5cbf2d3caff41943e16c953b9d95b5eaa0e9
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 22:12:14 2019 -0400
+
+    modified several functions in Chess and Board to fix compiler error issues. Commented code on several functions in Chess and fixed issue with in_check method in Chess
+
+commit 26735f298b495de93b65043e87bcf6a850fbc9f5
+Merge: d8f1d5b 0e0b4dc
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 17:45:34 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit d8f1d5bc0dd92b72a1eabb311f3f64cd1e196cf1
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 17:45:23 2019 -0400
+
+    updated Board.cpp
+
+commit 0e0b4dcfc7ca403d81ebea4f71d496b2e47e8674
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 17:39:41 2019 -0400
+
+    modiifed find_kings function for syntactical corrections. Added header in .h file
+
+commit a9b232931ac53231224ae3dc47e20c581d7cbbb4
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 17:25:01 2019 -0400
+
+    implemented function to return position of kings on board if they exist
+
+commit cc4d390810b00f23367fe13d7c05ec91633d4286
+Merge: 915372c 81a2038
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 17:04:15 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 915372cf8c3d30b5bd12bfbd6d6333cb705f5625
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 17:04:02 2019 -0400
+
+    added functions to Board.h/cpp (getter for map and in the way
+
+commit 81a20380d0bf30da27c794781f7e5c77dfd723a7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Apr 24 16:59:11 2019 -0400
+
+    deleted git log, add back at the end
+
+commit 0fedc4a684d676f6227ae3f7ac3840a49d25f0b2
+Merge: 8ec6512 30aff98
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Apr 24 16:57:50 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+
+commit 8ec65129f883032d66cf807e986b79e38e5959ea
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Apr 24 16:56:37 2019 -0400
+
+    redefined legal_capture_move for pawn
+
+commit 30aff98324f530b84d5acba0e23a4edc2e34992e
+Merge: f061e9e 5bbf7d4
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 16:54:52 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit f061e9e88ced4345b809242871bb6e0f6c308448
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Wed Apr 24 16:54:43 2019 -0400
+
+    implemented legal_capture_move function
+
+commit 5bbf7d4d25d490be0ee2fe29f0951e7e76fa3d7f
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 16:51:03 2019 -0400
+
+    updating Chess.cpp's move function
+
+commit aaaaf18247bf42850fd3a7936394acb2844dff43
+Merge: 6772b06 b4f01d2
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Wed Apr 24 16:26:46 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit b4f01d262d525c13f8e8358134308e990f63065d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 23 19:59:34 2019 -0400
+
+    created valid_pos helper in Board and added add_piece
+
+commit c3500e0a24de82b35de42057bca69c85684f7fc9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 23 19:15:50 2019 -0400
+
+    created .cpp files for pieces
+
+commit 6772b06ff3bd8f8f5dce8c215cb03b4d8bf2ae22
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 22 19:12:11 2019 -0400
+
+    updated Board.cpp's use of iostream
+
+commit 07bf002b0ba6131c3fa81dd7526db71b3a2c3056
+Merge: d0564fd 89d7455
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 22 19:10:21 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit d0564fd744b3228f9e79643f8d19ac0fef98da22
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 22 19:10:09 2019 -0400
+
+    fixed math errors + () function in Board.cpp
+
+commit 239c3eae97380c45a34b49b4956a26664d52f791
+Author: Rebecca Yu <ryu16@jhu.edu>
+Date:   Mon Apr 22 19:01:46 2019 -0400
+
+    updated Board
+
+commit 89d74554f7718261a36b53f96e1c8aaaccc8e295
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:58:57 2019 -0400
+
+    implemented display function
+
+commit 6be6f81004887eb319fe82a489a00ef5c9b3f323
+Merge: 5c1e322 04b561a
+Author: Rebecca <ryu16@jhu.edu>
+Date:   Mon Apr 22 18:51:41 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit 5c1e322b3b0dfee2643eab17298ba88510d8e7f3
+Author: Rebecca <ryu16@jhu.edu>
+Date:   Mon Apr 22 18:51:25 2019 -0400
+
+    Makefile, updated Chess.cpp & King.h
+
+commit 04b561a745140a12bcb167477ff51ae5ea60d777
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:48:26 2019 -0400
+
+    implemented has_valid_kings function
+
+commit b3e2bc6524a3d64183efbd831fda5fdf3e4b6c85
+Merge: 9717a63 0ee272f
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:39:19 2019 -0400
+
+    changed statements to resolve merge conflicts
+
+commit 9717a63b111c5e2df6d8a290ab56c5fe3cd0b92f
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:37:09 2019 -0400
+
+    made syntactical changes to legal move functions and added README info
+
+commit 8c0b87cdf666ea7f07a4ff8b71bc239fc349acae
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:35:21 2019 -0400
+
+    commented out legal move function
+
+commit 0ee272fef41f6a3b90b9d8a1c4da76b8bd46868d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:30:54 2019 -0400
+
+    finished Knight.h legal move with math.abs
+
+commit bda5a1544e69dde20aeafd8405b1faf291996be8
+Merge: a56b087 dd2c619
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:28:14 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+    merged local and remote
+
+commit a56b0870adbc2036c51b2709740a8d1a585cd72d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:28:05 2019 -0400
+
+    legal move for pawn
+
+commit dd2c619400412b7209127e4f1083e86b881f8fc8
+Merge: adf2cad 9bd8988
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:25:13 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+
+commit adf2cad14bd0df40ea439ec2a47f4d4697b434a9
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:25:02 2019 -0400
+
+    implemented legal move function for Queen
+
+commit 9bd89888161b855b4f3cf46a10dc403ae4225e44
+Merge: 82a564e c2569a2
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:23:57 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+    merged local and remote
+
+commit 82a564eead5f09d02a3ae0c3cbd8e47d55800ccf
+Merge: b564092 41632bb
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:23:19 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_final
+
+commit c2569a23930f1a30058e765ad467ec8ce0f49087
+Merge: 713bc58 41632bb
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:22:56 2019 -0400
+
+    Merge branch 'master' of https://bitbucket.org/endernac/cs220_final
+    
+    necessary to pull code from other pieces whose legal move functions have been implemented
+
+commit b564092a0498f1c6ea6f7f2060351130af20df08
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 22 18:22:51 2019 -0400
+
+    checked valid move for knight
+
+commit 713bc586628edb8534be8c7263475041e22d4401
+Author: Arjun Somayazulu <asomaya1@jhu.edu>
+Date:   Mon Apr 22 18:22:22 2019 -0400
+
+    implemented legal move method in Bishop
+
+commit 4cfbbb2f150c9e5548a2c675322de439dd64e20a
+Author: Rebecca <ryu16@jhu.edu>
+Date:   Mon Apr 22 18:22:05 2019 -0400
+
+    knight.h legal moves + chess.cpp checks for case where piece does not move (start == end)
+
+commit 41632bb5748c3c8e32d7206e97f7afb3336cab94
+Author: Rebecca <ryu16@jhu.edu>
+Date:   Mon Apr 22 18:11:04 2019 -0400
+
+    updated chess.cpp to check if end spot is on the board
+
+commit 6ee3214efa4b57bdc318bf670de35276995d9b43
+Author: Rebecca <ryu16@jhu.edu>
+Date:   Mon Apr 22 18:10:06 2019 -0400
+
+    updated rook.h legal move shape
+
+commit 8be52927a390e9622c7cd9e8f0228898b13e0a81
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Apr 21 23:47:22 2019 -0400
+
+    Created README
+
+commit 32e9ffaa59ffec1a9f5af70d7fc2f9897c5a2286
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Apr 17 17:07:38 2019 -0400
+
+    added starter files

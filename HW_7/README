@@ -1,0 +1,55 @@
+Andrew Cornelio
+acornel9
+
+I used the functions provided because I found that they were enough to implement all 
+the features required, meaning I didn't see the need for helper functions, which 
+would only more the code more cluttered. For the most part the functions were pretty 
+straightforward to implement. Since a lot of the required functions were related I 
+just had functions invoking each other (with a little error checking before the call).
+
+-------------------------------------------------------------------------------------
+Structure of calls of additon a new node/character to the tree (for Ctree):
+
+
+			  	    operator^
+                		        |
+                	       		|
+        	                	v
+		addChild(char) --> addChild(CTree*)
+					|
+					|
+					v
+		addChild(char) --> addChild(CTree*) 
+
+
+Note 1: Going from the char version to the CTree* version required that I make a tree
+	node with the value of the char. If the new node was added, then I would return
+	true, but if it wasn't then I had to delete the new node otherwise the orphaned 
+	node would cause a memory leak. 
+Note 2: AddChild(CTree*) first checks if the current node has children and if the value
+	of the first child is less than the value of the node wishing to be grafted.
+Note 3: The operator^ returns the pointer to the current node regardless of whether the
+	addition was successful.
+
+---------------------------------------------------------------------------------------
+Structure of calls for printing (for CTree):
+
+                                    operator<<
+                                        |
+                                        |
+                                        v
+                		    toString()
+
+---------------------------------------------------------------------------------------
+
+Other comments:
+
+		1) Once I got the depth first search working for the == operator, I
+		   realized I could exploit the same code for checking equality of two
+		   trees, with minimal changes. So == uses a dfs.
+		2) Tree.inc & Tree.h are almost entirely identical to CTree.cpp and 
+		   CTree.h respectively. I literally just used the find and replace tool
+		   to modify it. The only real difference is that Tree.inc uses string
+		   streams in the toString method because ss's << operator is more robust
+		   than string's += operator in handling the various primitives and objects
+		   thrown at it.

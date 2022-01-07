@@ -1,0 +1,426 @@
+commit 4191a5476155bf64652eb7f258acec39690217ba
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Apr 3 20:10:29 2019 -0400
+
+    Updated README
+
+commit 53a7d17cef79c9e1bbe716e6069ed7616830965b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 2 23:07:58 2019 -0400
+
+    implemented fsort
+
+commit 402cb6ee77da3d97cc88623ee6ccc110ace07b90
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 2 22:19:18 2019 -0400
+
+    Deleted executables
+
+commit 89bd9a7e35cf0c6874ed4b13b53b95b57b49d923
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Apr 2 22:18:30 2019 -0400
+
+    added reference notation to header file and wrote asort, dsort, csort
+
+commit ceaa51bdc11fc7d171d8671389bc64deefaced7d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 1 21:52:05 2019 -0400
+
+    hw5 now prints a list of all the trigrams
+
+commit d72fb3e8426a92408aaba83dce35f03d5979ace6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Apr 1 13:10:33 2019 -0400
+
+    Created all files
+
+commit 29a19932bcc60348e60ddf6ae2d1b784ceabb32a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 4 23:05:50 2019 -0500
+
+    updated exercises
+
+commit ca430e388131423c8f2d1317a16e4d2a17a44a57
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 28 13:29:19 2019 -0500
+
+    Changed pattern_match return type from int[] to int
+
+commit 1562cc8f5570f8b8b05468595867121f531e43b6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 21:41:56 2019 -0500
+
+    Changed ending index
+
+commit f3167387a9d078dd9f6e866828e87c80f1eb972d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 21:24:32 2019 -0500
+
+    Committed every file in case I missed anything
+
+commit 67bdaab459e5717bf0a4bca7770ccc34f0dc37ab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 21:23:13 2019 -0500
+
+    Completed README
+
+commit a0ee6903d1f0162da7fb37945b51cfb1ca8300d7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 20:09:25 2019 -0500
+
+    integrated file reading and processing into read_text func
+
+commit a394cd497a271569aa0e538b6c4ecea2387309d9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 17:20:12 2019 -0500
+
+    minor tweaks to test file
+
+commit e4d81e742023ebc972dc500ac1965e2eff36adb6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 16:23:24 2019 -0500
+
+    Added read text file checks to handle 1500 character arrays
+
+commit 4c5ae3b5b3f94060696757a6a5c0acf505879e23
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 03:34:34 2019 -0500
+
+    added checks to pattern_match, capitalize, and valid
+
+commit f76f604a4c233ba0ce05b6d844a25ebae2132a77
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 03:05:41 2019 -0500
+
+    Makefile compiles test_dnasearch.c now
+
+commit c7f7fa48b6e79db65f0449776188d5714058af99
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 03:04:28 2019 -0500
+
+    fixed syntax errors and added checks to the test file
+
+commit fa3c757228e29e098cc5e094af7ee7c258163d48
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 01:08:02 2019 -0500
+
+    Started adding checks for pattern_match
+
+commit 9da1ed0ab4169e14320d68dcf1b02551db0250d0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 01:06:56 2019 -0500
+
+    realloced the occ array instead of filling the extra entries with -1
+
+commit 5702904c2914e6ab80a0572ad05d5b19355404a0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Wed Feb 27 00:02:50 2019 -0500
+
+    transferred text file reading from main to dna_search
+
+commit 8468c8aed14a6b6903eec649466c1f7dce4e5e1d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 26 18:08:16 2019 -0500
+
+    added null character to list of valid characters in string
+
+commit 70477ce4977eed4ca7b49f74c1a0a05397648b81
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 26 16:17:05 2019 -0500
+
+    transferred out capitalize and validity checks
+
+commit c4e0690d11379f495e86e37c919e84cccbdb68bd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 26 16:14:57 2019 -0500
+
+    transfered the capitalize and dna validity checks to dnasearch for code reuse
+
+commit f727697738e6343a141e9fb8320fa6fed0d50aa1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 26 14:33:07 2019 -0500
+
+    Added case insensitivity to the pattern
+
+commit ada5690df002ef902663c7d48a53209726c08cc0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 25 17:17:15 2019 -0500
+
+    Debugged and tested code- added pointers to pattern match fn
+
+commit 6ac0e7a6451b632ac5674a6ebd1e3daf5152dfa7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 16:29:40 2019 -0500
+
+    Pushed excercises to remote
+
+commit 2a1fd3f8fc0846e73670d890eed178a6beb268bc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 12:35:32 2019 -0500
+
+    Added comments to pattern printing section
+
+commit c7471fa92cb5e1554d789f97e3ef6ae96d52f7c0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 12:19:56 2019 -0500
+
+    added pattern matching (untested)
+
+commit cf305e653f67792014a8b802bd1476016002424e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 11:33:39 2019 -0500
+
+    added CL argument text file opening and modified char input into array
+
+commit 807213cf9b5bd107c59a6b6e658a9849a4609372
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 10:00:46 2019 -0500
+
+    added text collection to hw3
+
+commit 6f5ee62cf1700cc8f4c7b264eaf6271a755a73b0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 09:28:41 2019 -0500
+
+    added debugging flags to Makefile
+
+commit 9846f4b9ee36a0bf5e3217a128ec14de49a1dc94
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Feb 22 00:07:11 2019 -0500
+
+    adjusted maximum num of occurences to account for repeating paterns
+
+commit ae208e56b706abfab57949f8280993bfbbf6f8b3
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 23:31:43 2019 -0500
+
+    template of README
+
+commit 6624f3fe6482eafb2fe97f0dd42e62faa108f6ec
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 23:26:56 2019 -0500
+
+    created pattern_match function in dnasearch
+
+commit 24f53536c2816826087602382a1f9abcf582ddbd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 01:09:17 2019 -0500
+
+    added TODO comments
+
+commit 935fb53233b7af65a7233b90df192f7a4501fc13
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 00:40:59 2019 -0500
+
+    Created README
+
+commit 67431b71cc1780a0f883ab0286ac9345df263fe2
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 00:40:12 2019 -0500
+
+    created complete Makefile
+
+commit 2ca4a313bbe7206d5b8624650830f856bf1c7a6a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 00:16:15 2019 -0500
+
+    Created test_dnasearch.c
+
+commit 594c9c2ca3cb9cce294c519de67bad7f69cef58e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 00:13:40 2019 -0500
+
+    added name and JHED to main and fn files
+
+commit a0877a280837cbfb5df1f2be914366857a242dfa
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Thu Feb 21 00:10:48 2019 -0500
+
+    created hw3.c, dnasearch.c, dnasearch.h
+
+commit 44bcf765626f9174fc61895c24c856d11a6b710a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:55:26 2019 -0500
+
+    Changed return vals and reduced double to float
+
+commit c79e9965fcb21f8b962ae939aea028b3cd184ae8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:47:58 2019 -0500
+
+    removed carriage return before outputs
+
+commit 125976a6d1b13788d5a19050875885726ccf959d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:43:31 2019 -0500
+
+    caught 2nd infinite loop while reading for sign
+
+commit ee66ffdb4a67ca5e1feebbcbc0184e424c1c9dab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:28:52 2019 -0500
+
+    caught infinite loop while reading for sign
+
+commit 0d61340d4f5c979d246e4c7e13f46f990aa9fa3c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:04:36 2019 -0500
+
+    terminates once user inputs bad input
+
+commit 78265a05ce365d7c5a5d7b18d357de0201ab6a95
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 22:32:46 2019 -0500
+
+    working- split char and double input
+
+commit d76c3d72a032c75a05fb9a03adbf61b6713a8654
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:45:19 2019 -0500
+
+    changed indentation
+
+commit c96b618c70a037b307535892babdbba03b9a17e6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:41:02 2019 -0500
+
+    updated arithmetic.c
+
+commit 28fb551c90b54b99456b888500f0d158234c32ed
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:38:00 2019 -0500
+
+    removed old arithmetic file
+
+commit 656bf00a1aa09f4d0fc6974b3112baa485933770
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:36:24 2019 -0500
+
+    working copy now works most of the time
+
+commit d2edaa453eaf96b7d8249b19605d624691c7191f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 19:14:46 2019 -0500
+
+    Forgot to fix some minor syntax errors
+
+commit ec51b0c0885d13bfce655857dfd164006d4cd4d6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 19:10:59 2019 -0500
+
+    Code a lot more elegant
+
+commit 207c1470f36fdeb6415015e9c9fd0099b4fca396
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 18:18:37 2019 -0500
+
+    removing array dependence in new version
+
+commit bb77b40d0fdafa6c257da9a60431ac606621f0d1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Feb 10 00:00:52 2019 -0500
+
+    jk, now it has desired output
+
+commit 47ec8df5daec34a1c983d107405716e4117ab861
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:58:35 2019 -0500
+
+    restrained output to desired output
+
+commit d7bf712b9d23c868c5e27cf39189010a81598746
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:52:31 2019 -0500
+
+    changed float to double for more precision
+
+commit 713ab6afceed7dc263aa2feeb83a2bf6805cb1c8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Feb 10 04:39:14 2019 +0000
+
+    hw/hw1/working_arithmetic.c edited online with Bitbucket
+
+commit 8d76253d809167371f290be04fb1ab71f4a83912
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:37:37 2019 -0500
+
+    changed name and deleted old version
+
+commit bc616d68edaf2105330910b536c6690aa42c5427
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:35:31 2019 -0500
+
+    works more or less, need more extensive debugging
+
+commit d959ff662bdbaefb2d26c5b1b6f1813959385e99
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 22:34:40 2019 -0500
+
+    if this works, program is done
+
+commit 39ce34bc6c7775438e9aa8d3b717bbed2d86e244
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 21:13:01 2019 -0500
+
+    malformed and /0 works most of time but no guarantee
+
+commit fd98374553f2362dad28e36da5f6c6ef652754fe
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 20:29:40 2019 -0500
+
+    trying a different rules based strategy
+
+commit b631ec1f27ea470d4af294fb16e81b3320487794
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 15:19:56 2019 -0500
+
+    Able to correctly detect malformed and /0 most of time
+
+commit c007387f809a374521e4b562eec94322eba98973
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 13:14:55 2019 -0500
+
+    lol jk, now the array has only relevent characters
+
+commit e1e9b8702ee440a1ba1ba216e2c96b99ef07fff5
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 13:11:06 2019 -0500
+
+    program can read in UI and create an char array with relevent text
+
+commit 1f290c8be241bbd3c9ad3fedd4bc1b3c59f2b700
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:41:18 2019 -0500
+
+    created arithmetic.c in hw1
+
+commit f0776427d77dd8abe76cdae0cf9fdcf70c4a2097
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:34:08 2019 -0500
+
+    Updated readme
+
+commit 25f16e0ebd52521022a27eaf3517b42d6f5ed78d
+Merge: 23a843f 496dc88
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:29:09 2019 -0500
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220
+
+commit 23a843f66e1b7e10b3575b24d0e293370558de42
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:26:25 2019 -0500
+
+    Created README
+
+commit 496dc887990c6375ca0f00d789475ee196e1d9d7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 16:25:33 2019 +0000
+
+    .gitignore created online with Bitbucket
+
+commit f263793f9f26b8a53fafca1918deef6cc3e151fe
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:19:17 2019 -0500
+
+    house keeping- created one cs220 repo for everything

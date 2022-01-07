@@ -1,0 +1,186 @@
+commit 44bcf765626f9174fc61895c24c856d11a6b710a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:55:26 2019 -0500
+
+    Changed return vals and reduced double to float
+
+commit c79e9965fcb21f8b962ae939aea028b3cd184ae8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:47:58 2019 -0500
+
+    removed carriage return before outputs
+
+commit 125976a6d1b13788d5a19050875885726ccf959d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:43:31 2019 -0500
+
+    caught 2nd infinite loop while reading for sign
+
+commit ee66ffdb4a67ca5e1feebbcbc0184e424c1c9dab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:28:52 2019 -0500
+
+    caught infinite loop while reading for sign
+
+commit 0d61340d4f5c979d246e4c7e13f46f990aa9fa3c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Feb 12 00:04:36 2019 -0500
+
+    terminates once user inputs bad input
+
+commit 78265a05ce365d7c5a5d7b18d357de0201ab6a95
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 22:32:46 2019 -0500
+
+    working- split char and double input
+
+commit d76c3d72a032c75a05fb9a03adbf61b6713a8654
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:45:19 2019 -0500
+
+    changed indentation
+
+commit c96b618c70a037b307535892babdbba03b9a17e6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:41:02 2019 -0500
+
+    updated arithmetic.c
+
+commit 28fb551c90b54b99456b888500f0d158234c32ed
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:38:00 2019 -0500
+
+    removed old arithmetic file
+
+commit 656bf00a1aa09f4d0fc6974b3112baa485933770
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 20:36:24 2019 -0500
+
+    working copy now works most of the time
+
+commit d2edaa453eaf96b7d8249b19605d624691c7191f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 19:14:46 2019 -0500
+
+    Forgot to fix some minor syntax errors
+
+commit ec51b0c0885d13bfce655857dfd164006d4cd4d6
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 19:10:59 2019 -0500
+
+    Code a lot more elegant
+
+commit 207c1470f36fdeb6415015e9c9fd0099b4fca396
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Feb 11 18:18:37 2019 -0500
+
+    removing array dependence in new version
+
+commit bb77b40d0fdafa6c257da9a60431ac606621f0d1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Feb 10 00:00:52 2019 -0500
+
+    jk, now it has desired output
+
+commit 47ec8df5daec34a1c983d107405716e4117ab861
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:58:35 2019 -0500
+
+    restrained output to desired output
+
+commit d7bf712b9d23c868c5e27cf39189010a81598746
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:52:31 2019 -0500
+
+    changed float to double for more precision
+
+commit 713ab6afceed7dc263aa2feeb83a2bf6805cb1c8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sun Feb 10 04:39:14 2019 +0000
+
+    hw/hw1/working_arithmetic.c edited online with Bitbucket
+
+commit 8d76253d809167371f290be04fb1ab71f4a83912
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:37:37 2019 -0500
+
+    changed name and deleted old version
+
+commit bc616d68edaf2105330910b536c6690aa42c5427
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 23:35:31 2019 -0500
+
+    works more or less, need more extensive debugging
+
+commit d959ff662bdbaefb2d26c5b1b6f1813959385e99
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 22:34:40 2019 -0500
+
+    if this works, program is done
+
+commit 39ce34bc6c7775438e9aa8d3b717bbed2d86e244
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 21:13:01 2019 -0500
+
+    malformed and /0 works most of time but no guarantee
+
+commit fd98374553f2362dad28e36da5f6c6ef652754fe
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 20:29:40 2019 -0500
+
+    trying a different rules based strategy
+
+commit b631ec1f27ea470d4af294fb16e81b3320487794
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 15:19:56 2019 -0500
+
+    Able to correctly detect malformed and /0 most of time
+
+commit c007387f809a374521e4b562eec94322eba98973
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 13:14:55 2019 -0500
+
+    lol jk, now the array has only relevent characters
+
+commit e1e9b8702ee440a1ba1ba216e2c96b99ef07fff5
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 13:11:06 2019 -0500
+
+    program can read in UI and create an char array with relevent text
+
+commit 1f290c8be241bbd3c9ad3fedd4bc1b3c59f2b700
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:41:18 2019 -0500
+
+    created arithmetic.c in hw1
+
+commit f0776427d77dd8abe76cdae0cf9fdcf70c4a2097
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:34:08 2019 -0500
+
+    Updated readme
+
+commit 25f16e0ebd52521022a27eaf3517b42d6f5ed78d
+Merge: 23a843f 496dc88
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:29:09 2019 -0500
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220
+
+commit 23a843f66e1b7e10b3575b24d0e293370558de42
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:26:25 2019 -0500
+
+    Created README
+
+commit 496dc887990c6375ca0f00d789475ee196e1d9d7
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 16:25:33 2019 +0000
+
+    .gitignore created online with Bitbucket
+
+commit f263793f9f26b8a53fafca1918deef6cc3e151fe
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Sat Feb 9 11:19:17 2019 -0500
+
+    house keeping- created one cs220 repo for everything

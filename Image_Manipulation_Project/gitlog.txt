@@ -1,0 +1,2108 @@
+commit cabe6a7d3fc24ce1467c5c46a65f15c1c960b3d4
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 20:05:40 2019 -0400
+
+    closed output file that would have accidentally leaked
+
+commit 9074238c74c64f5b9002b9e6d1ef4d5bcc0ad74c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:59:37 2019 -0400
+
+    Fixed crop so it rejects numbers with decimal point (doubls/floats)
+
+commit 4c2546fdfb6f611286332ffed33e03c93c5072be
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:38:03 2019 -0400
+
+    Changed ourder of checking in edges- use short circuit eval to avoid unneccassarily computing blur
+
+commit ee09e28adb8cb30edf61a4584b86bb6af019bf76
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:28:41 2019 -0400
+
+    misspelled threshold in edges fn
+
+commit 35e7fe083498ba74cbbdd4829a92f915fddcb427
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:26:43 2019 -0400
+
+    Completed process function and required threshold of edge detect to be positive
+
+commit 0e124f67e7689c80d824a5cab7c3d13d8c5029b1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:25:51 2019 -0400
+
+    Added README
+
+commit d496edc6cb212e8ab9bea2032a5fdfaf594e485b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:19:28 2019 -0400
+
+    project.c can do everything besides actually call the manip functions
+
+commit 6c7acaba82d633eeec9cca5eb6bceca6a60c67e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:01:48 2019 -0400
+
+    Guess what this commit is for (I forgot to clean first)
+
+commit 16bd26e25525e47eb2a85c9d60c4a9b7d3427fff
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:00:59 2019 -0400
+
+    Mostly implemented and very untested process function
+
+commit b2ec846ea1421aa1973a8d6ca5ed6be7f40556e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:42 2019 -0400
+
+    Deleted extra files
+
+commit fef9d365cb4950f6a6d67d2c140eab723f39ad1d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:06 2019 -0400
+
+    Fixed ferror
+
+commit 23a5ad0ec6ef7068cbfbcfbe9e98392b3348ca2a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 18:02:43 2019 +0000
+
+    demo/.nfs0000000009b7ca8900000109 edited online with Bitbucket
+
+commit 75e62c86adecfe5f808e03276e70adb20d4e7a73
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 13:57:17 2019 -0400
+
+    Removed square macro and replaced with pow, changed 2 to 2.0 in edges- all functions work! (on test cases)
+
+commit e90ce00753e32d4d3de0854560bf9be6e4012a6c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:51 2019 -0400
+
+    removed extra files
+
+commit 0caeb33158a58f12b15f00d7b46bbf148a9bf92b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:08 2019 -0400
+
+    changed indeces for edge detector
+
+commit 08d12b817c81ad69a57bf35e3ee31c282251e71f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:56 2019 -0400
+
+    Still forget to clean before committing...
+
+commit e729de764ea76675c4c1e4429ac417c0a74ecdce
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:07 2019 -0400
+
+    changed file comp to image comp and array-ized testing
+
+commit cd0c64a9c7589c014825a8577e2b718347f69c65
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:39:21 2019 -0400
+
+    Added additional check in crop
+
+commit 5e03305bc6c360141ba104894e7a01e070007ebd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:22:42 2019 -0400
+
+    Made Edge detector copy to new array
+
+commit bba4a36cc0bc89c2408ef0c47693d538d571a161
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:54:05 2019 -0400
+
+    When will I learn to make clean before committing :(
+
+commit c84cf8aa8238428aa1c06aecf678aa3d7caf05ab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:53:13 2019 -0400
+
+    fixed bright and added rewind to make files pointers reusable
+
+commit a525732d98d5ba6bb14e125c730e80ae9d597b7f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 17:26:58 2019 -0400
+
+    created destroy_im function to free im and data
+
+commit 2b3f01640f0400dd216ecd5785ec8774f95e16c2
+Merge: 5687aaa 0d0ac29
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:53:35 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_midterm
+
+commit 5687aaacd556881af78ae560d93fe0d5d009e3b3
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:52:14 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit ee044f61c00dc86e1e97c7418b4e9e70e7f8ad98
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:51:33 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit 0d0ac292e56e53614e0e9e101bcde4fe74f848dd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:45:09 2019 -0400
+
+    Included variable names in function declarations
+
+commit 3d811f8ce197386dcec3124acb2f584f40895f28
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:39:40 2019 -0400
+
+    Reformatted function endings to be uniform
+
+commit 2570caebec4c8c3a59654eefc17be3154bb2932b
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:42 2019 -0400
+
+    Updated makefile to remove test output image
+
+commit 7409d58318a9089c7c13b4cedc5e520ba0325160
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:18 2019 -0400
+
+    Removed unnecessary linker from makefile
+
+commit 52f3ef0accd5ae742d19b6fb60de8c18296a2e80
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:34:25 2019 -0400
+
+    fully commented all functions and added table of contents
+
+commit e00b9ab82ef963edf2f9e8c4aef03694df3f5a2d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:29:22 2019 -0400
+
+    commented declaration file
+
+commit 6048ab2f6dacb40d9629180f79fa4c73bd2682f0
+Merge: ecbc449 7188f58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:28:01 2019 -0400
+
+    Merge branch 'fn-blur'
+
+commit ecbc44907d76daea8e1f2a2b14b0978496ca5835
+Merge: 35507fd 525259d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:22:02 2019 -0400
+
+    Merge branch 'fn-swap'
+
+commit 35507fd17d180cf641f6c653bfe313391a556858
+Merge: c95b32a 1d6d5a3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:19:56 2019 -0400
+
+    Merge branch 'fn-edgedetector'
+
+commit c95b32aaeaf6d05a179be179adb4ced12be46b08
+Merge: ca9f15d 1bf8c4f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:18:47 2019 -0400
+
+    Merge branch 'fn-invert'
+
+commit ca9f15d85641f71d8ee660bd4f957740dad743cb
+Merge: 3e33267 755b5c0
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:16:30 2019 -0400
+
+    Merge branch 'fn-crop'
+
+commit 3e33267dbaea1b10ae9d85c2c14f7df848d35729
+Merge: 4020ae0 dd4b4b7
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:15:39 2019 -0400
+
+    Merge branch 'fn-bright'
+
+commit 4020ae0b47d75eb1260bb847a0e9b742d70de657
+Merge: b3022e4 f0c8eaf
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:31:39 2019 +0000
+
+    Merged in io (pull request #1)
+    
+    Reformatting of files related to IO
+
+commit b3022e486e22e9ba3ff61bb095e433984d74cacc
+Merge: dbd0c60 3efce00
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:28:14 2019 +0000
+
+    Merged in fn-greyscale (pull request #2)
+    
+    Function: greyscale
+
+commit f0c8eafd1c93a24178d42c837d96d3e0a7624e9e
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:02:40 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 1bf8c4f8b47549dc91a304caf9702ba72b18eced
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:01:54 2019 -0400
+
+    Corrected header declaration
+
+commit 1d6d5a3f1624a14ddfcea5b54bc070d3c0520652
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:00:46 2019 -0400
+
+    Removed "smarter" way of reassigning all channel values -- it doesn't work
+
+commit 755b5c0fd844fa4d54859981fac34fce453e4808
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:54:36 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit dd4b4b764a76c4296d61ceb0d748c2f2fc7b7b58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:53:57 2019 -0400
+
+    Updated function declartions in header
+
+commit 7188f58737d3bb5e42e173446efa6a07cbb0e607
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:18 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 428f12a59555c0ecd1e621ba0cb892ca99ee4d47
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:02 2019 -0400
+
+    Corrected makefile so -lm is not used unnecessarily
+
+commit 525259d9558a9c25f4625c0f4f07f00e9618c4de
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:47:42 2019 -0400
+
+    Changed function declaration in header file to reflect return type
+
+commit bc5eecfe31153afe72fac78874952b5c10b1f2ee
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:54 2019 -0400
+
+    Added a return value
+
+commit c092d7f8855ce1de1ccb5068f934e8151cc17dcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:35 2019 -0400
+
+    Configured return value
+
+commit 3efce00de63b0537696e22fe16acbaa9264ff742
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:47 2019 -0400
+
+    Configured return value to show no errors
+
+commit fe7914b91d37585f4a4deea9c06dbcbeef9a5914
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:06 2019 -0400
+
+    Changed variable name to avoid confusion with function name
+
+commit f891ccf90dde1c9a853b3d938d8879eba31b09a8
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:43:03 2019 -0400
+
+    Configured returned value
+
+commit d1696b8d24557946b4dcfe2388c3d59c574d7764
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:42:32 2019 -0400
+
+    Added documentation to helper function
+
+commit 6aac985560608c6f7f49114091ef88c6234b7171
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:41:47 2019 -0400
+
+    Added documentation to brighten function
+
+commit e6bb4c5bda0aea76f44f0d2bef267c7a17d6d391
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:40:11 2019 -0400
+
+    Moved documentation inside function and reformatted
+
+commit fcdd7435323fc238704da8772fd0ec9314c74b6f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:37:21 2019 -0400
+
+    Reformatted indentation and added more documentation
+
+commit 6c2b9c5b7c381a608c95a6de839ed328b2a6fe01
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:33:29 2019 -0400
+
+    Fixed indentation
+
+commit 53b5ccd19fee44e1009eaadcd3085bbc3e055d17
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:31:54 2019 -0400
+
+    Corrected value returned for arguement bounds
+
+commit 7d3cf110b43d571a869455fd4291a7f1fab9aae6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:28:33 2019 -0400
+
+    Corrected return value to indicuate proper error condition
+
+commit ed5bc4ed31df9f014edaa6767057b94e213c62ea
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:26:59 2019 -0400
+
+    Added flags to check for errors
+
+commit 061c4917e7aa4981b59abfe0482b0979a5dd6e10
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:22:24 2019 -0400
+
+    Implemented smarter way of assigning all channels to a signle value
+
+commit 8479f849389c3ec80e9583e8f91f10a9f0ea7da6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:56 2019 -0400
+
+    Included `-lm` flag for compiling image manupulation functions
+
+commit 245735b214f919998b82326d6b45570e08aa62a9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:03 2019 -0400
+
+    Uncommented functions that are being called in the main executable
+
+commit c5bb5ee8c0c8e8f39e11b03c283a22d4fc4295e9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:17:33 2019 -0400
+
+    Fix: indent with tabs
+
+commit 9f17c992733b704e2d01ed4367c27a95c1287a70
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:16:33 2019 -0400
+
+    Fixed indentation and comment format
+
+commit dba54e8586f6841631d32b000d53f417ecd27fe9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:52 2019 -0400
+
+    Defined SQR as a macro
+
+commit f052154511f401f8a8c4b86a95a29f02b57e5fd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:12 2019 -0400
+
+    Added first draft of the edge detection function
+
+commit 705532c3db44b5719e7ba21a757518e8884dcedc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:19:53 2019 -0400
+
+    Added function to convert image to greyscale
+
+commit 1623bb8ffff6b58a38c77d4b3ee0ba9a65769b51
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:15:30 2019 -0400
+
+    Changed return type of `bound` helper function to unsigned char
+
+commit e05a484e8008c5018db2dc1287ed189011cbdccd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:13:07 2019 -0400
+
+    Changed type of `bright` from int->double
+
+commit e6141ca74392a7c5611dfa427c13b2fea58cd152
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:12:27 2019 -0400
+
+    Added function to brighten image by given amount
+
+commit 9401bbed7467f8a9516d38eb1abdabfdf6529663
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:11:57 2019 -0400
+
+    Added helper function to bound pixel intensity values between [0, 225]
+
+commit 5a2c39d9f934c2763221cfd5caf9a88e70ae6094
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:55:15 2019 -0400
+
+    Fixed indentation on IO files; now use tabs instead of spaces
+
+commit 7a46e65c8e4ff997e4a35065abd8d745bf8a4c81
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:49:30 2019 -0400
+
+    Fixed spelling in comment and restructured comment
+
+commit 8e437d515e0b13f25b4cb88e9a911670ce9e5fcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:44:11 2019 -0400
+
+    Changed variable name `sig`->`sigma`
+
+commit b4cfc366bdd013f25360366123189498e6e2fb27
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:43:01 2019 -0400
+
+    Fixed indentation
+
+commit 44b5b330faa2a0ed48ea891904c0a0146e3b47ba
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:32:39 2019 -0400
+
+    Optimized calculating gaussian filter by iterating over upper triangle
+
+commit 8e1f578a9987ec1ae6001ff260018f19cdce4ae8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:13:58 2019 -0400
+
+    Added comments to invert fn
+
+commit 3fe36b655d7e241b6542ff44409d17b1797f0ec0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:09:59 2019 -0400
+
+    Added comments to swap fn
+
+commit bc61199de0e036afd30563a7fcec8a26f6b60a8c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:02:32 2019 -0400
+
+    Added check for negative sigma value
+
+commit 9b7a36df544a1221792b439d000d0524eb6d7e39
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 18:58:13 2019 -0400
+
+    added check for crop out of bounds
+
+commit 0e1b79c8a5fa8e58028644a025531cc9f6623211
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 15:31:17 2019 -0400
+
+    Added comments and fixed edge cases
+
+commit bdf59ac62c76e35c1e39d8a31b90528bb2124bcc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:48:07 2019 +0000
+
+    demo/imageManip.o edited online with Bitbucket
+
+commit b2c85f170c41571b1516278bd999e389f36c5870
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:54 2019 +0000
+
+    demo/ppm_io.o edited online with Bitbucket
+
+commit 5b2680674eb4c3186380a9d8a1adc882daeac5bb
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:44 2019 +0000
+
+    demo/project edited online with Bitbucket
+
+commit d4604b067e6e69cf3a88c7fced380576dd818a0f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:29 2019 +0000
+
+    demo/project.o edited online with Bitbucket
+
+commit cbb46fb0b85229cf9397838f42db59953df9384e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:10 2019 +0000
+
+    demo/blur.ppm edited online with Bitbucket
+
+commit 34f308423389f964ad3e745eefc1ca9ca8586710
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 01:44:22 2019 -0400
+
+    added blur function and rudimentary test in project.c
+
+commit de5d6282936c69dcdf95d3e723022a9fa57dfeea
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 22:10:23 2019 -0400
+
+    crop function and visual test in project.c
+
+commit 5aaba3c50da75b6d91342e5911d62b2c86401dfc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:10:48 2019 -0400
+
+    uncommented crop fn
+
+commit 98806d20034538a1567579acc8d56abeeb8a5d55
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:06:11 2019 -0400
+
+    added invert function and visual test in project.c
+
+commit 40d23704f27df01f3c6a15c4f8bb243513d9a761
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 18:54:42 2019 -0400
+
+    added swap code and a visual test in project.c
+
+commit dbd0c60764a3d65e1b160b626e1a41aa0bdeb2e9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:48:56 2019 -0500
+
+    Corrected functions
+
+commit 99d3999926c4d1fea2ee3e1ec43d7123a39bc935
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:46:02 2019 -0500
+
+    Changed return types of fns
+
+commit 95259a60fd2851d73a4bc6b2a8cfcc03e25fb346
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 19:42:20 2019 -0500
+
+    added copy_ppm fn
+
+commit 0e1f67654db09a18be875e69e518e0c7f72ab46a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 17:05:23 2019 -0500
+
+    Set up structure for imageManip
+
+commit 9e7ba18419e754b6e08c5abb2e9695b49cc57d18
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 15:03:58 2019 -0500
+
+    Added all the function declarations to imageManip.h
+
+commit 365978270f1bbe7934ca69b093c66d04c6522a6b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 14:39:30 2019 -0500
+
+    syncing my repo with remote
+
+commit 0dd9df838284ec71ff843fbc20983d18a817a135
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 23:14:32 2019 -0500
+
+    Updated Makefile and added code to do basic test of ppm_read
+
+commit 7cce65d63ec1fb1b675a95dcf901f104253049b9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:57:42 2019 -0500
+
+    account for the three char in Pixel
+
+commit b0f83c71928c9b5e43b73f91430b8d76ddaaf61c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:37:50 2019 -0500
+
+    might want to add a copy function
+
+commit 1b8764f38efcc95cb9b8a42cb5e9315e3e0c474f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:36:41 2019 -0500
+
+    created image manipulation file w/ header
+
+commit b58d5174cb65ad30541ec69a90acb1f4de363032
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:23:53 2019 -0500
+
+    Warning: untested code in read_ppm
+
+commit efa5a0cd5305b5724b70a37685c6b364f8337dd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Fri Mar 1 16:58:25 2019 -0500
+
+    committed files provided by instructors
+
+commit e303616e1fc126c6458f4176859de17bf98b97e2
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 1 21:52:59 2019 +0000
+
+    README.md created online with Bitbucket
+commit 64dd8ae904b04443ea4d0bb0587aad97a6131e63
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:48:40 2019 -0400
+
+    Added compilation instructions for the test function
+
+commit 6fdfda6c95e15b0cb990e6ed4103626c6a5ce4bf
+Merge: dd2e85f 7b944e4
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:45:53 2019 -0400
+
+    Merge branch 'formatting'
+
+commit 7b944e45b9eb9e353d8842887f3f699a7f192925
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:43:43 2019 -0400
+
+    Condensed test file
+
+commit 82b68ac2645dda6bf0fc0577aab9e6716ad3aa8f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:43:29 2019 -0400
+
+    removed unnecessary comment in Makefile
+
+commit ef6374b3ae894a99d6b9e9d06e06ba5d7750b82d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:37:16 2019 -0400
+
+    Moved testing functions to a seperate file that won't be submitted
+
+commit dd2e85f81c8dde2b7a825da769fa9f07bd03e37b
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:36:04 2019 -0400
+
+    Added description of main file functionality
+
+commit 5478c8a4e8a332b8b7f6b9a241cc1d98556e576e
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:35:02 2019 -0400
+
+    Corrected all indentation in main file
+
+commit 2ccec6dd120ef6232a45a83c48ed4ed338e7fce7
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:26:26 2019 -0400
+
+    Standardized indentation
+
+commit 20b490c1b59ce8a31fc2cf151c9057e6bfe06ebd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:25:17 2019 -0400
+
+    Reduced comment length on blur function
+
+commit c62ec65bb529579cdf86d805740a37f214a5f3e5
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:24:03 2019 -0400
+
+    Added better documentation on crop function
+
+commit 767dddc8dd7fa8896a135795fcdac7a963ecdb28
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:23:47 2019 -0400
+
+    Fixed indentation on edge detection function
+
+commit e9f53e780cdd073015ec2f428c0ed3288be2553c
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:19:54 2019 -0400
+
+    Finished readme
+
+commit b702da0e8ff1ceda5f6101d15ce550360ff77ec0
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 14:56:16 2019 -0400
+
+    fixed typo in readme
+
+commit 2c3f9533f71db7bb47d045126d27351438f63785
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 20:39:23 2019 -0400
+
+    renamed readme
+
+commit cabe6a7d3fc24ce1467c5c46a65f15c1c960b3d4
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 20:05:40 2019 -0400
+
+    closed output file that would have accidentally leaked
+
+commit 9074238c74c64f5b9002b9e6d1ef4d5bcc0ad74c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:59:37 2019 -0400
+
+    Fixed crop so it rejects numbers with decimal point (doubls/floats)
+
+commit 4c2546fdfb6f611286332ffed33e03c93c5072be
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:38:03 2019 -0400
+
+    Changed ourder of checking in edges- use short circuit eval to avoid unneccassarily computing blur
+
+commit ee09e28adb8cb30edf61a4584b86bb6af019bf76
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:28:41 2019 -0400
+
+    misspelled threshold in edges fn
+
+commit 35e7fe083498ba74cbbdd4829a92f915fddcb427
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:26:43 2019 -0400
+
+    Completed process function and required threshold of edge detect to be positive
+
+commit 0e124f67e7689c80d824a5cab7c3d13d8c5029b1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:25:51 2019 -0400
+
+    Added README
+
+commit d496edc6cb212e8ab9bea2032a5fdfaf594e485b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:19:28 2019 -0400
+
+    project.c can do everything besides actually call the manip functions
+
+commit 6c7acaba82d633eeec9cca5eb6bceca6a60c67e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:01:48 2019 -0400
+
+    Guess what this commit is for (I forgot to clean first)
+
+commit 16bd26e25525e47eb2a85c9d60c4a9b7d3427fff
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:00:59 2019 -0400
+
+    Mostly implemented and very untested process function
+
+commit b2ec846ea1421aa1973a8d6ca5ed6be7f40556e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:42 2019 -0400
+
+    Deleted extra files
+
+commit fef9d365cb4950f6a6d67d2c140eab723f39ad1d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:06 2019 -0400
+
+    Fixed ferror
+
+commit 23a5ad0ec6ef7068cbfbcfbe9e98392b3348ca2a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 18:02:43 2019 +0000
+
+    demo/.nfs0000000009b7ca8900000109 edited online with Bitbucket
+
+commit 75e62c86adecfe5f808e03276e70adb20d4e7a73
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 13:57:17 2019 -0400
+
+    Removed square macro and replaced with pow, changed 2 to 2.0 in edges- all functions work! (on test cases)
+
+commit e90ce00753e32d4d3de0854560bf9be6e4012a6c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:51 2019 -0400
+
+    removed extra files
+
+commit 0caeb33158a58f12b15f00d7b46bbf148a9bf92b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:08 2019 -0400
+
+    changed indeces for edge detector
+
+commit 08d12b817c81ad69a57bf35e3ee31c282251e71f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:56 2019 -0400
+
+    Still forget to clean before committing...
+
+commit e729de764ea76675c4c1e4429ac417c0a74ecdce
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:07 2019 -0400
+
+    changed file comp to image comp and array-ized testing
+
+commit cd0c64a9c7589c014825a8577e2b718347f69c65
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:39:21 2019 -0400
+
+    Added additional check in crop
+
+commit 5e03305bc6c360141ba104894e7a01e070007ebd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:22:42 2019 -0400
+
+    Made Edge detector copy to new array
+
+commit bba4a36cc0bc89c2408ef0c47693d538d571a161
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:54:05 2019 -0400
+
+    When will I learn to make clean before committing :(
+
+commit c84cf8aa8238428aa1c06aecf678aa3d7caf05ab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:53:13 2019 -0400
+
+    fixed bright and added rewind to make files pointers reusable
+
+commit a525732d98d5ba6bb14e125c730e80ae9d597b7f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 17:26:58 2019 -0400
+
+    created destroy_im function to free im and data
+
+commit 2b3f01640f0400dd216ecd5785ec8774f95e16c2
+Merge: 5687aaa 0d0ac29
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:53:35 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_midterm
+
+commit 5687aaacd556881af78ae560d93fe0d5d009e3b3
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:52:14 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit ee044f61c00dc86e1e97c7418b4e9e70e7f8ad98
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:51:33 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit 0d0ac292e56e53614e0e9e101bcde4fe74f848dd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:45:09 2019 -0400
+
+    Included variable names in function declarations
+
+commit 3d811f8ce197386dcec3124acb2f584f40895f28
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:39:40 2019 -0400
+
+    Reformatted function endings to be uniform
+
+commit 2570caebec4c8c3a59654eefc17be3154bb2932b
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:42 2019 -0400
+
+    Updated makefile to remove test output image
+
+commit 7409d58318a9089c7c13b4cedc5e520ba0325160
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:18 2019 -0400
+
+    Removed unnecessary linker from makefile
+
+commit 52f3ef0accd5ae742d19b6fb60de8c18296a2e80
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:34:25 2019 -0400
+
+    fully commented all functions and added table of contents
+
+commit e00b9ab82ef963edf2f9e8c4aef03694df3f5a2d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:29:22 2019 -0400
+
+    commented declaration file
+
+commit 6048ab2f6dacb40d9629180f79fa4c73bd2682f0
+Merge: ecbc449 7188f58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:28:01 2019 -0400
+
+    Merge branch 'fn-blur'
+
+commit ecbc44907d76daea8e1f2a2b14b0978496ca5835
+Merge: 35507fd 525259d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:22:02 2019 -0400
+
+    Merge branch 'fn-swap'
+
+commit 35507fd17d180cf641f6c653bfe313391a556858
+Merge: c95b32a 1d6d5a3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:19:56 2019 -0400
+
+    Merge branch 'fn-edgedetector'
+
+commit c95b32aaeaf6d05a179be179adb4ced12be46b08
+Merge: ca9f15d 1bf8c4f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:18:47 2019 -0400
+
+    Merge branch 'fn-invert'
+
+commit ca9f15d85641f71d8ee660bd4f957740dad743cb
+Merge: 3e33267 755b5c0
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:16:30 2019 -0400
+
+    Merge branch 'fn-crop'
+
+commit 3e33267dbaea1b10ae9d85c2c14f7df848d35729
+Merge: 4020ae0 dd4b4b7
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:15:39 2019 -0400
+
+    Merge branch 'fn-bright'
+
+commit 4020ae0b47d75eb1260bb847a0e9b742d70de657
+Merge: b3022e4 f0c8eaf
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:31:39 2019 +0000
+
+    Merged in io (pull request #1)
+    
+    Reformatting of files related to IO
+
+commit b3022e486e22e9ba3ff61bb095e433984d74cacc
+Merge: dbd0c60 3efce00
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:28:14 2019 +0000
+
+    Merged in fn-greyscale (pull request #2)
+    
+    Function: greyscale
+
+commit f0c8eafd1c93a24178d42c837d96d3e0a7624e9e
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:02:40 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 1bf8c4f8b47549dc91a304caf9702ba72b18eced
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:01:54 2019 -0400
+
+    Corrected header declaration
+
+commit 1d6d5a3f1624a14ddfcea5b54bc070d3c0520652
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:00:46 2019 -0400
+
+    Removed "smarter" way of reassigning all channel values -- it doesn't work
+
+commit 755b5c0fd844fa4d54859981fac34fce453e4808
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:54:36 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit dd4b4b764a76c4296d61ceb0d748c2f2fc7b7b58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:53:57 2019 -0400
+
+    Updated function declartions in header
+
+commit 7188f58737d3bb5e42e173446efa6a07cbb0e607
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:18 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 428f12a59555c0ecd1e621ba0cb892ca99ee4d47
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:02 2019 -0400
+
+    Corrected makefile so -lm is not used unnecessarily
+
+commit 525259d9558a9c25f4625c0f4f07f00e9618c4de
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:47:42 2019 -0400
+
+    Changed function declaration in header file to reflect return type
+
+commit bc5eecfe31153afe72fac78874952b5c10b1f2ee
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:54 2019 -0400
+
+    Added a return value
+
+commit c092d7f8855ce1de1ccb5068f934e8151cc17dcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:35 2019 -0400
+
+    Configured return value
+
+commit 3efce00de63b0537696e22fe16acbaa9264ff742
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:47 2019 -0400
+
+    Configured return value to show no errors
+
+commit fe7914b91d37585f4a4deea9c06dbcbeef9a5914
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:06 2019 -0400
+
+    Changed variable name to avoid confusion with function name
+
+commit f891ccf90dde1c9a853b3d938d8879eba31b09a8
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:43:03 2019 -0400
+
+    Configured returned value
+
+commit d1696b8d24557946b4dcfe2388c3d59c574d7764
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:42:32 2019 -0400
+
+    Added documentation to helper function
+
+commit 6aac985560608c6f7f49114091ef88c6234b7171
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:41:47 2019 -0400
+
+    Added documentation to brighten function
+
+commit e6bb4c5bda0aea76f44f0d2bef267c7a17d6d391
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:40:11 2019 -0400
+
+    Moved documentation inside function and reformatted
+
+commit fcdd7435323fc238704da8772fd0ec9314c74b6f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:37:21 2019 -0400
+
+    Reformatted indentation and added more documentation
+
+commit 6c2b9c5b7c381a608c95a6de839ed328b2a6fe01
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:33:29 2019 -0400
+
+    Fixed indentation
+
+commit 53b5ccd19fee44e1009eaadcd3085bbc3e055d17
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:31:54 2019 -0400
+
+    Corrected value returned for arguement bounds
+
+commit 7d3cf110b43d571a869455fd4291a7f1fab9aae6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:28:33 2019 -0400
+
+    Corrected return value to indicuate proper error condition
+
+commit ed5bc4ed31df9f014edaa6767057b94e213c62ea
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:26:59 2019 -0400
+
+    Added flags to check for errors
+
+commit 061c4917e7aa4981b59abfe0482b0979a5dd6e10
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:22:24 2019 -0400
+
+    Implemented smarter way of assigning all channels to a signle value
+
+commit 8479f849389c3ec80e9583e8f91f10a9f0ea7da6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:56 2019 -0400
+
+    Included `-lm` flag for compiling image manupulation functions
+
+commit 245735b214f919998b82326d6b45570e08aa62a9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:03 2019 -0400
+
+    Uncommented functions that are being called in the main executable
+
+commit c5bb5ee8c0c8e8f39e11b03c283a22d4fc4295e9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:17:33 2019 -0400
+
+    Fix: indent with tabs
+
+commit 9f17c992733b704e2d01ed4367c27a95c1287a70
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:16:33 2019 -0400
+
+    Fixed indentation and comment format
+
+commit dba54e8586f6841631d32b000d53f417ecd27fe9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:52 2019 -0400
+
+    Defined SQR as a macro
+
+commit f052154511f401f8a8c4b86a95a29f02b57e5fd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:12 2019 -0400
+
+    Added first draft of the edge detection function
+
+commit 705532c3db44b5719e7ba21a757518e8884dcedc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:19:53 2019 -0400
+
+    Added function to convert image to greyscale
+
+commit 1623bb8ffff6b58a38c77d4b3ee0ba9a65769b51
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:15:30 2019 -0400
+
+    Changed return type of `bound` helper function to unsigned char
+
+commit e05a484e8008c5018db2dc1287ed189011cbdccd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:13:07 2019 -0400
+
+    Changed type of `bright` from int->double
+
+commit e6141ca74392a7c5611dfa427c13b2fea58cd152
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:12:27 2019 -0400
+
+    Added function to brighten image by given amount
+
+commit 9401bbed7467f8a9516d38eb1abdabfdf6529663
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:11:57 2019 -0400
+
+    Added helper function to bound pixel intensity values between [0, 225]
+
+commit 5a2c39d9f934c2763221cfd5caf9a88e70ae6094
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:55:15 2019 -0400
+
+    Fixed indentation on IO files; now use tabs instead of spaces
+
+commit 7a46e65c8e4ff997e4a35065abd8d745bf8a4c81
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:49:30 2019 -0400
+
+    Fixed spelling in comment and restructured comment
+
+commit 8e437d515e0b13f25b4cb88e9a911670ce9e5fcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:44:11 2019 -0400
+
+    Changed variable name `sig`->`sigma`
+
+commit b4cfc366bdd013f25360366123189498e6e2fb27
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:43:01 2019 -0400
+
+    Fixed indentation
+
+commit 44b5b330faa2a0ed48ea891904c0a0146e3b47ba
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:32:39 2019 -0400
+
+    Optimized calculating gaussian filter by iterating over upper triangle
+
+commit 8e1f578a9987ec1ae6001ff260018f19cdce4ae8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:13:58 2019 -0400
+
+    Added comments to invert fn
+
+commit 3fe36b655d7e241b6542ff44409d17b1797f0ec0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:09:59 2019 -0400
+
+    Added comments to swap fn
+
+commit bc61199de0e036afd30563a7fcec8a26f6b60a8c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:02:32 2019 -0400
+
+    Added check for negative sigma value
+
+commit 9b7a36df544a1221792b439d000d0524eb6d7e39
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 18:58:13 2019 -0400
+
+    added check for crop out of bounds
+
+commit 0e1b79c8a5fa8e58028644a025531cc9f6623211
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 15:31:17 2019 -0400
+
+    Added comments and fixed edge cases
+
+commit bdf59ac62c76e35c1e39d8a31b90528bb2124bcc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:48:07 2019 +0000
+
+    demo/imageManip.o edited online with Bitbucket
+
+commit b2c85f170c41571b1516278bd999e389f36c5870
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:54 2019 +0000
+
+    demo/ppm_io.o edited online with Bitbucket
+
+commit 5b2680674eb4c3186380a9d8a1adc882daeac5bb
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:44 2019 +0000
+
+    demo/project edited online with Bitbucket
+
+commit d4604b067e6e69cf3a88c7fced380576dd818a0f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:29 2019 +0000
+
+    demo/project.o edited online with Bitbucket
+
+commit cbb46fb0b85229cf9397838f42db59953df9384e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:10 2019 +0000
+
+    demo/blur.ppm edited online with Bitbucket
+
+commit 34f308423389f964ad3e745eefc1ca9ca8586710
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 01:44:22 2019 -0400
+
+    added blur function and rudimentary test in project.c
+
+commit de5d6282936c69dcdf95d3e723022a9fa57dfeea
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 22:10:23 2019 -0400
+
+    crop function and visual test in project.c
+
+commit 5aaba3c50da75b6d91342e5911d62b2c86401dfc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:10:48 2019 -0400
+
+    uncommented crop fn
+
+commit 98806d20034538a1567579acc8d56abeeb8a5d55
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:06:11 2019 -0400
+
+    added invert function and visual test in project.c
+
+commit 40d23704f27df01f3c6a15c4f8bb243513d9a761
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 18:54:42 2019 -0400
+
+    added swap code and a visual test in project.c
+
+commit dbd0c60764a3d65e1b160b626e1a41aa0bdeb2e9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:48:56 2019 -0500
+
+    Corrected functions
+
+commit 99d3999926c4d1fea2ee3e1ec43d7123a39bc935
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:46:02 2019 -0500
+
+    Changed return types of fns
+
+commit 95259a60fd2851d73a4bc6b2a8cfcc03e25fb346
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 19:42:20 2019 -0500
+
+    added copy_ppm fn
+
+commit 0e1f67654db09a18be875e69e518e0c7f72ab46a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 17:05:23 2019 -0500
+
+    Set up structure for imageManip
+
+commit 9e7ba18419e754b6e08c5abb2e9695b49cc57d18
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 15:03:58 2019 -0500
+
+    Added all the function declarations to imageManip.h
+
+commit 365978270f1bbe7934ca69b093c66d04c6522a6b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 14:39:30 2019 -0500
+
+    syncing my repo with remote
+
+commit 0dd9df838284ec71ff843fbc20983d18a817a135
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 23:14:32 2019 -0500
+
+    Updated Makefile and added code to do basic test of ppm_read
+
+commit 7cce65d63ec1fb1b675a95dcf901f104253049b9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:57:42 2019 -0500
+
+    account for the three char in Pixel
+
+commit b0f83c71928c9b5e43b73f91430b8d76ddaaf61c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:37:50 2019 -0500
+
+    might want to add a copy function
+
+commit 1b8764f38efcc95cb9b8a42cb5e9315e3e0c474f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:36:41 2019 -0500
+
+    created image manipulation file w/ header
+
+commit b58d5174cb65ad30541ec69a90acb1f4de363032
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:23:53 2019 -0500
+
+    Warning: untested code in read_ppm
+
+commit efa5a0cd5305b5724b70a37685c6b364f8337dd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Fri Mar 1 16:58:25 2019 -0500
+
+    committed files provided by instructors
+
+commit e303616e1fc126c6458f4176859de17bf98b97e2
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 1 21:52:59 2019 +0000
+
+    README.md created online with Bitbucket
+commit cd8a3c65e1ff0c60a9469d20cfb8a5c2dd68e618
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:52:28 2019 -0400
+
+    Renamed `imageManip`->`image_manip`
+
+commit d66df8c70ee5a1e4803633f2dbaf4d6ab4029a0a
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:49:49 2019 -0400
+
+    updated gitlog
+
+commit 64dd8ae904b04443ea4d0bb0587aad97a6131e63
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:48:40 2019 -0400
+
+    Added compilation instructions for the test function
+
+commit 6fdfda6c95e15b0cb990e6ed4103626c6a5ce4bf
+Merge: dd2e85f 7b944e4
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:45:53 2019 -0400
+
+    Merge branch 'formatting'
+
+commit 7b944e45b9eb9e353d8842887f3f699a7f192925
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:43:43 2019 -0400
+
+    Condensed test file
+
+commit 82b68ac2645dda6bf0fc0577aab9e6716ad3aa8f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:43:29 2019 -0400
+
+    removed unnecessary comment in Makefile
+
+commit ef6374b3ae894a99d6b9e9d06e06ba5d7750b82d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:37:16 2019 -0400
+
+    Moved testing functions to a seperate file that won't be submitted
+
+commit dd2e85f81c8dde2b7a825da769fa9f07bd03e37b
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:36:04 2019 -0400
+
+    Added description of main file functionality
+
+commit 5478c8a4e8a332b8b7f6b9a241cc1d98556e576e
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:35:02 2019 -0400
+
+    Corrected all indentation in main file
+
+commit 2ccec6dd120ef6232a45a83c48ed4ed338e7fce7
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:26:26 2019 -0400
+
+    Standardized indentation
+
+commit 20b490c1b59ce8a31fc2cf151c9057e6bfe06ebd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:25:17 2019 -0400
+
+    Reduced comment length on blur function
+
+commit c62ec65bb529579cdf86d805740a37f214a5f3e5
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:24:03 2019 -0400
+
+    Added better documentation on crop function
+
+commit 767dddc8dd7fa8896a135795fcdac7a963ecdb28
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:23:47 2019 -0400
+
+    Fixed indentation on edge detection function
+
+commit e9f53e780cdd073015ec2f428c0ed3288be2553c
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 15:19:54 2019 -0400
+
+    Finished readme
+
+commit b702da0e8ff1ceda5f6101d15ce550360ff77ec0
+Author: v715 <vgopala4@jhu.edu>
+Date:   Wed Mar 27 14:56:16 2019 -0400
+
+    fixed typo in readme
+
+commit 2c3f9533f71db7bb47d045126d27351438f63785
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 20:39:23 2019 -0400
+
+    renamed readme
+
+commit cabe6a7d3fc24ce1467c5c46a65f15c1c960b3d4
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 20:05:40 2019 -0400
+
+    closed output file that would have accidentally leaked
+
+commit 9074238c74c64f5b9002b9e6d1ef4d5bcc0ad74c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:59:37 2019 -0400
+
+    Fixed crop so it rejects numbers with decimal point (doubls/floats)
+
+commit 4c2546fdfb6f611286332ffed33e03c93c5072be
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:38:03 2019 -0400
+
+    Changed ourder of checking in edges- use short circuit eval to avoid unneccassarily computing blur
+
+commit ee09e28adb8cb30edf61a4584b86bb6af019bf76
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:28:41 2019 -0400
+
+    misspelled threshold in edges fn
+
+commit 35e7fe083498ba74cbbdd4829a92f915fddcb427
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 19:26:43 2019 -0400
+
+    Completed process function and required threshold of edge detect to be positive
+
+commit 0e124f67e7689c80d824a5cab7c3d13d8c5029b1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:25:51 2019 -0400
+
+    Added README
+
+commit d496edc6cb212e8ab9bea2032a5fdfaf594e485b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:19:28 2019 -0400
+
+    project.c can do everything besides actually call the manip functions
+
+commit 6c7acaba82d633eeec9cca5eb6bceca6a60c67e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:01:48 2019 -0400
+
+    Guess what this commit is for (I forgot to clean first)
+
+commit 16bd26e25525e47eb2a85c9d60c4a9b7d3427fff
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 16:00:59 2019 -0400
+
+    Mostly implemented and very untested process function
+
+commit b2ec846ea1421aa1973a8d6ca5ed6be7f40556e1
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:42 2019 -0400
+
+    Deleted extra files
+
+commit fef9d365cb4950f6a6d67d2c140eab723f39ad1d
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 14:35:06 2019 -0400
+
+    Fixed ferror
+
+commit 23a5ad0ec6ef7068cbfbcfbe9e98392b3348ca2a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 18:02:43 2019 +0000
+
+    demo/.nfs0000000009b7ca8900000109 edited online with Bitbucket
+
+commit 75e62c86adecfe5f808e03276e70adb20d4e7a73
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 13:57:17 2019 -0400
+
+    Removed square macro and replaced with pow, changed 2 to 2.0 in edges- all functions work! (on test cases)
+
+commit e90ce00753e32d4d3de0854560bf9be6e4012a6c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:51 2019 -0400
+
+    removed extra files
+
+commit 0caeb33158a58f12b15f00d7b46bbf148a9bf92b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 26 00:50:08 2019 -0400
+
+    changed indeces for edge detector
+
+commit 08d12b817c81ad69a57bf35e3ee31c282251e71f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:56 2019 -0400
+
+    Still forget to clean before committing...
+
+commit e729de764ea76675c4c1e4429ac417c0a74ecdce
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 23:09:07 2019 -0400
+
+    changed file comp to image comp and array-ized testing
+
+commit cd0c64a9c7589c014825a8577e2b718347f69c65
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:39:21 2019 -0400
+
+    Added additional check in crop
+
+commit 5e03305bc6c360141ba104894e7a01e070007ebd
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 20:22:42 2019 -0400
+
+    Made Edge detector copy to new array
+
+commit bba4a36cc0bc89c2408ef0c47693d538d571a161
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:54:05 2019 -0400
+
+    When will I learn to make clean before committing :(
+
+commit c84cf8aa8238428aa1c06aecf678aa3d7caf05ab
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 18:53:13 2019 -0400
+
+    fixed bright and added rewind to make files pointers reusable
+
+commit a525732d98d5ba6bb14e125c730e80ae9d597b7f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 17:26:58 2019 -0400
+
+    created destroy_im function to free im and data
+
+commit 2b3f01640f0400dd216ecd5785ec8774f95e16c2
+Merge: 5687aaa 0d0ac29
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:53:35 2019 -0400
+
+    Merge branch 'master' of bitbucket.org:endernac/cs220_midterm
+
+commit 5687aaacd556881af78ae560d93fe0d5d009e3b3
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:52:14 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit ee044f61c00dc86e1e97c7418b4e9e70e7f8ad98
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 25 16:51:33 2019 -0400
+
+    deleted demo files, added destroy fn im ppm_io, implemented valgrind test in project.c
+
+commit 0d0ac292e56e53614e0e9e101bcde4fe74f848dd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:45:09 2019 -0400
+
+    Included variable names in function declarations
+
+commit 3d811f8ce197386dcec3124acb2f584f40895f28
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:39:40 2019 -0400
+
+    Reformatted function endings to be uniform
+
+commit 2570caebec4c8c3a59654eefc17be3154bb2932b
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:42 2019 -0400
+
+    Updated makefile to remove test output image
+
+commit 7409d58318a9089c7c13b4cedc5e520ba0325160
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:37:18 2019 -0400
+
+    Removed unnecessary linker from makefile
+
+commit 52f3ef0accd5ae742d19b6fb60de8c18296a2e80
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:34:25 2019 -0400
+
+    fully commented all functions and added table of contents
+
+commit e00b9ab82ef963edf2f9e8c4aef03694df3f5a2d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:29:22 2019 -0400
+
+    commented declaration file
+
+commit 6048ab2f6dacb40d9629180f79fa4c73bd2682f0
+Merge: ecbc449 7188f58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:28:01 2019 -0400
+
+    Merge branch 'fn-blur'
+
+commit ecbc44907d76daea8e1f2a2b14b0978496ca5835
+Merge: 35507fd 525259d
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:22:02 2019 -0400
+
+    Merge branch 'fn-swap'
+
+commit 35507fd17d180cf641f6c653bfe313391a556858
+Merge: c95b32a 1d6d5a3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:19:56 2019 -0400
+
+    Merge branch 'fn-edgedetector'
+
+commit c95b32aaeaf6d05a179be179adb4ced12be46b08
+Merge: ca9f15d 1bf8c4f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:18:47 2019 -0400
+
+    Merge branch 'fn-invert'
+
+commit ca9f15d85641f71d8ee660bd4f957740dad743cb
+Merge: 3e33267 755b5c0
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:16:30 2019 -0400
+
+    Merge branch 'fn-crop'
+
+commit 3e33267dbaea1b10ae9d85c2c14f7df848d35729
+Merge: 4020ae0 dd4b4b7
+Author: v715 <vgopala4@jhu.edu>
+Date:   Mon Mar 25 15:15:39 2019 -0400
+
+    Merge branch 'fn-bright'
+
+commit 4020ae0b47d75eb1260bb847a0e9b742d70de657
+Merge: b3022e4 f0c8eaf
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:31:39 2019 +0000
+
+    Merged in io (pull request #1)
+    
+    Reformatting of files related to IO
+
+commit b3022e486e22e9ba3ff61bb095e433984d74cacc
+Merge: dbd0c60 3efce00
+Author: Vivek Gopalakrishnan <vgopala4@jhu.edu>
+Date:   Mon Mar 25 17:28:14 2019 +0000
+
+    Merged in fn-greyscale (pull request #2)
+    
+    Function: greyscale
+
+commit f0c8eafd1c93a24178d42c837d96d3e0a7624e9e
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:02:40 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 1bf8c4f8b47549dc91a304caf9702ba72b18eced
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:01:54 2019 -0400
+
+    Corrected header declaration
+
+commit 1d6d5a3f1624a14ddfcea5b54bc070d3c0520652
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 17:00:46 2019 -0400
+
+    Removed "smarter" way of reassigning all channel values -- it doesn't work
+
+commit 755b5c0fd844fa4d54859981fac34fce453e4808
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:54:36 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit dd4b4b764a76c4296d61ceb0d748c2f2fc7b7b58
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:53:57 2019 -0400
+
+    Updated function declartions in header
+
+commit 7188f58737d3bb5e42e173446efa6a07cbb0e607
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:18 2019 -0400
+
+    Added a forgotten semi-colon
+
+commit 428f12a59555c0ecd1e621ba0cb892ca99ee4d47
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:50:02 2019 -0400
+
+    Corrected makefile so -lm is not used unnecessarily
+
+commit 525259d9558a9c25f4625c0f4f07f00e9618c4de
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:47:42 2019 -0400
+
+    Changed function declaration in header file to reflect return type
+
+commit bc5eecfe31153afe72fac78874952b5c10b1f2ee
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:54 2019 -0400
+
+    Added a return value
+
+commit c092d7f8855ce1de1ccb5068f934e8151cc17dcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:45:35 2019 -0400
+
+    Configured return value
+
+commit 3efce00de63b0537696e22fe16acbaa9264ff742
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:47 2019 -0400
+
+    Configured return value to show no errors
+
+commit fe7914b91d37585f4a4deea9c06dbcbeef9a5914
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:44:06 2019 -0400
+
+    Changed variable name to avoid confusion with function name
+
+commit f891ccf90dde1c9a853b3d938d8879eba31b09a8
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:43:03 2019 -0400
+
+    Configured returned value
+
+commit d1696b8d24557946b4dcfe2388c3d59c574d7764
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:42:32 2019 -0400
+
+    Added documentation to helper function
+
+commit 6aac985560608c6f7f49114091ef88c6234b7171
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:41:47 2019 -0400
+
+    Added documentation to brighten function
+
+commit e6bb4c5bda0aea76f44f0d2bef267c7a17d6d391
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:40:11 2019 -0400
+
+    Moved documentation inside function and reformatted
+
+commit fcdd7435323fc238704da8772fd0ec9314c74b6f
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:37:21 2019 -0400
+
+    Reformatted indentation and added more documentation
+
+commit 6c2b9c5b7c381a608c95a6de839ed328b2a6fe01
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:33:29 2019 -0400
+
+    Fixed indentation
+
+commit 53b5ccd19fee44e1009eaadcd3085bbc3e055d17
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:31:54 2019 -0400
+
+    Corrected value returned for arguement bounds
+
+commit 7d3cf110b43d571a869455fd4291a7f1fab9aae6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:28:33 2019 -0400
+
+    Corrected return value to indicuate proper error condition
+
+commit ed5bc4ed31df9f014edaa6767057b94e213c62ea
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:26:59 2019 -0400
+
+    Added flags to check for errors
+
+commit 061c4917e7aa4981b59abfe0482b0979a5dd6e10
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:22:24 2019 -0400
+
+    Implemented smarter way of assigning all channels to a signle value
+
+commit 8479f849389c3ec80e9583e8f91f10a9f0ea7da6
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:56 2019 -0400
+
+    Included `-lm` flag for compiling image manupulation functions
+
+commit 245735b214f919998b82326d6b45570e08aa62a9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:18:03 2019 -0400
+
+    Uncommented functions that are being called in the main executable
+
+commit c5bb5ee8c0c8e8f39e11b03c283a22d4fc4295e9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:17:33 2019 -0400
+
+    Fix: indent with tabs
+
+commit 9f17c992733b704e2d01ed4367c27a95c1287a70
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:16:33 2019 -0400
+
+    Fixed indentation and comment format
+
+commit dba54e8586f6841631d32b000d53f417ecd27fe9
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:52 2019 -0400
+
+    Defined SQR as a macro
+
+commit f052154511f401f8a8c4b86a95a29f02b57e5fd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 16:08:12 2019 -0400
+
+    Added first draft of the edge detection function
+
+commit 705532c3db44b5719e7ba21a757518e8884dcedc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:19:53 2019 -0400
+
+    Added function to convert image to greyscale
+
+commit 1623bb8ffff6b58a38c77d4b3ee0ba9a65769b51
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:15:30 2019 -0400
+
+    Changed return type of `bound` helper function to unsigned char
+
+commit e05a484e8008c5018db2dc1287ed189011cbdccd
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:13:07 2019 -0400
+
+    Changed type of `bright` from int->double
+
+commit e6141ca74392a7c5611dfa427c13b2fea58cd152
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:12:27 2019 -0400
+
+    Added function to brighten image by given amount
+
+commit 9401bbed7467f8a9516d38eb1abdabfdf6529663
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 15:11:57 2019 -0400
+
+    Added helper function to bound pixel intensity values between [0, 225]
+
+commit 5a2c39d9f934c2763221cfd5caf9a88e70ae6094
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:55:15 2019 -0400
+
+    Fixed indentation on IO files; now use tabs instead of spaces
+
+commit 7a46e65c8e4ff997e4a35065abd8d745bf8a4c81
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:49:30 2019 -0400
+
+    Fixed spelling in comment and restructured comment
+
+commit 8e437d515e0b13f25b4cb88e9a911670ce9e5fcc
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:44:11 2019 -0400
+
+    Changed variable name `sig`->`sigma`
+
+commit b4cfc366bdd013f25360366123189498e6e2fb27
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:43:01 2019 -0400
+
+    Fixed indentation
+
+commit 44b5b330faa2a0ed48ea891904c0a0146e3b47ba
+Author: v715 <vgopala4@jhu.edu>
+Date:   Sun Mar 24 14:32:39 2019 -0400
+
+    Optimized calculating gaussian filter by iterating over upper triangle
+
+commit 8e1f578a9987ec1ae6001ff260018f19cdce4ae8
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:13:58 2019 -0400
+
+    Added comments to invert fn
+
+commit 3fe36b655d7e241b6542ff44409d17b1797f0ec0
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:09:59 2019 -0400
+
+    Added comments to swap fn
+
+commit bc61199de0e036afd30563a7fcec8a26f6b60a8c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 19:02:32 2019 -0400
+
+    Added check for negative sigma value
+
+commit 9b7a36df544a1221792b439d000d0524eb6d7e39
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 18:58:13 2019 -0400
+
+    added check for crop out of bounds
+
+commit 0e1b79c8a5fa8e58028644a025531cc9f6623211
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 22 15:31:17 2019 -0400
+
+    Added comments and fixed edge cases
+
+commit bdf59ac62c76e35c1e39d8a31b90528bb2124bcc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:48:07 2019 +0000
+
+    demo/imageManip.o edited online with Bitbucket
+
+commit b2c85f170c41571b1516278bd999e389f36c5870
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:54 2019 +0000
+
+    demo/ppm_io.o edited online with Bitbucket
+
+commit 5b2680674eb4c3186380a9d8a1adc882daeac5bb
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:44 2019 +0000
+
+    demo/project edited online with Bitbucket
+
+commit d4604b067e6e69cf3a88c7fced380576dd818a0f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:29 2019 +0000
+
+    demo/project.o edited online with Bitbucket
+
+commit cbb46fb0b85229cf9397838f42db59953df9384e
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 05:47:10 2019 +0000
+
+    demo/blur.ppm edited online with Bitbucket
+
+commit 34f308423389f964ad3e745eefc1ca9ca8586710
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 12 01:44:22 2019 -0400
+
+    added blur function and rudimentary test in project.c
+
+commit de5d6282936c69dcdf95d3e723022a9fa57dfeea
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 22:10:23 2019 -0400
+
+    crop function and visual test in project.c
+
+commit 5aaba3c50da75b6d91342e5911d62b2c86401dfc
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:10:48 2019 -0400
+
+    uncommented crop fn
+
+commit 98806d20034538a1567579acc8d56abeeb8a5d55
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 19:06:11 2019 -0400
+
+    added invert function and visual test in project.c
+
+commit 40d23704f27df01f3c6a15c4f8bb243513d9a761
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Mon Mar 11 18:54:42 2019 -0400
+
+    added swap code and a visual test in project.c
+
+commit dbd0c60764a3d65e1b160b626e1a41aa0bdeb2e9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:48:56 2019 -0500
+
+    Corrected functions
+
+commit 99d3999926c4d1fea2ee3e1ec43d7123a39bc935
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 20:46:02 2019 -0500
+
+    Changed return types of fns
+
+commit 95259a60fd2851d73a4bc6b2a8cfcc03e25fb346
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 19:42:20 2019 -0500
+
+    added copy_ppm fn
+
+commit 0e1f67654db09a18be875e69e518e0c7f72ab46a
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 17:05:23 2019 -0500
+
+    Set up structure for imageManip
+
+commit 9e7ba18419e754b6e08c5abb2e9695b49cc57d18
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 15:03:58 2019 -0500
+
+    Added all the function declarations to imageManip.h
+
+commit 365978270f1bbe7934ca69b093c66d04c6522a6b
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 8 14:39:30 2019 -0500
+
+    syncing my repo with remote
+
+commit 0dd9df838284ec71ff843fbc20983d18a817a135
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 23:14:32 2019 -0500
+
+    Updated Makefile and added code to do basic test of ppm_read
+
+commit 7cce65d63ec1fb1b675a95dcf901f104253049b9
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:57:42 2019 -0500
+
+    account for the three char in Pixel
+
+commit b0f83c71928c9b5e43b73f91430b8d76ddaaf61c
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:37:50 2019 -0500
+
+    might want to add a copy function
+
+commit 1b8764f38efcc95cb9b8a42cb5e9315e3e0c474f
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:36:41 2019 -0500
+
+    created image manipulation file w/ header
+
+commit b58d5174cb65ad30541ec69a90acb1f4de363032
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Tue Mar 5 01:23:53 2019 -0500
+
+    Warning: untested code in read_ppm
+
+commit efa5a0cd5305b5724b70a37685c6b364f8337dd3
+Author: v715 <vgopala4@jhu.edu>
+Date:   Fri Mar 1 16:58:25 2019 -0500
+
+    committed files provided by instructors
+
+commit e303616e1fc126c6458f4176859de17bf98b97e2
+Author: Andrew Cornelio <acornel9@jhu.edu>
+Date:   Fri Mar 1 21:52:59 2019 +0000
+
+    README.md created online with Bitbucket
